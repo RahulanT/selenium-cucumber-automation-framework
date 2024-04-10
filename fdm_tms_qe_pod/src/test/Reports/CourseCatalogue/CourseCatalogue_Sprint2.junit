@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.37" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_01 Test that course catalogue tab is is displayed on the 'TMS' navigation bar" time="0.109">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;com.fdmgroup.global.utilities.BrowserUtilities.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "com.fdmgroup.global.utilities.BrowserUtilities.driver" is null
+	at com.fdmgroup.global.utilities.BrowserUtilities.navigateToUrl(BrowserUtilities.java:207)
+	at com.fdmgroup.coursecatalogue.stepdefinitions.CourseCatalogue_StepDefinitions.user_launches_the_tms_portal_page(CourseCatalogue_StepDefinitions.java:22)
+	at ✽.User launches the TMS portal page(file:///C:/Users/navpr/git/fdm_tms_qe_pod/src/test/resources/Features/Course%20Owners%20and%20Course%20Catalogue/Sprint2/TMS_235_Course_Catalogue.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................failed
+When Enters valid id and password...........................................skipped
+And user clicks the login button............................................skipped
+Then SysAdmin should navigate to the Home page..............................skipped
+Given User navigates to the BAPM Stream using course catalogue button in the navigation bar.skipped
+And 8 Tiles of courses are displayed........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

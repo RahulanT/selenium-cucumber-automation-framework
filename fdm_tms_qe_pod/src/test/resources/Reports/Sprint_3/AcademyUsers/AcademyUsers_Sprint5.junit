@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.27" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Check all the relevant options in the Navigation Bar for all the users" name="TC_TMS_832_01 trainer should be able to see the navigation options for trainee after log in" time="6.906">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainee...............................passed
+And user clicks the login button............................................passed
+And Navigate to the profile card page.......................................passed
+And User should see the navigation options for trainee......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_832/" as "TMS_832_01".passed
+]]></system-out>
+</testcase>
+</testsuite>

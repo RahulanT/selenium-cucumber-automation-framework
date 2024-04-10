@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="170.18" tests="7" skipped="0" failures="4" errors="0">
+<testcase classname="As a user I want to be able to click on the date button and activate a pop up calendar window to choose a specific" name="@TMS_2359 Test that popup calendar is appear when user clicks on date function" time="28.905">
+<system-out><![CDATA[
+Given User is redirected to tms calendar page...............................passed
+When I click on popup calendar button.......................................passed
+Then popup calendar should appear...........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_11/AcademyUsers/TMS_1001/" as "TMS_2359".passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to be able to click on the date button and activate a pop up calendar window to choose a specific" name="@TMS_2360 Test that user is allowed to navigate in past and future" time="14.901">
+<failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.199)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c86ff5528e53cb0d587b0668fabd2285, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52837/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c86ff5528e53cb0d587b0668fabd2285">
+<![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.199)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c86ff5528e53cb0d587b0668fabd2285, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52837/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c86ff5528e53cb0d587b0668fabd2285
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.academyusers.pages.PopupCalendarPage.setUsername(PopupCalendarPage.java:60)
+	at com.fdmgroup.academyusers.stepdefinitions.PopupView_stepdefinitions.user_is_redirected_to_tms_calendar_page(PopupView_stepdefinitions.java:20)
+	at ✽.User is redirected to tms calendar page(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_11/AcademyUsers/TMS_1001_PopUpView.feature:14)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is redirected to tms calendar page...............................failed
+When I click on popup calendar button.......................................skipped
+Then popup calendar should appear...........................................skipped
+And I can move forward backward in calendar.................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_11/AcademyUsers/TMS_1001/" as "TMS_2360".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2205 As an Academy Admin, I want to be able to select single or multiple skills from a ‘Skills’ drop-down so that each trainee has an appropriate skills assigned to them." name="TC_TMS User should be logged in to the system" time="31.068">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+And user clicks the login btn...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2205 As an Academy Admin, I want to be able to select single or multiple skills from a ‘Skills’ drop-down so that each trainee has an appropriate skills assigned to them." name="TMS_2432 Test that user can edit, remove and select single/multiple skills from dropdown" time="37.455">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@routerlink,'admin')]&quot;}
+  (Session info: chrome=120.0.6099.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [190990602605e15eaa2ac41f49efb769, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52900/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 190990602605e15eaa2ac41f49efb769">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@routerlink,'admin')]"}
+  (Session info: chrome=120.0.6099.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [190990602605e15eaa2ac41f49efb769, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52900/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 190990602605e15eaa2ac41f49efb769
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.DisplaySkillsPage.clickAdminLink(DisplaySkillsPage.java:41)
+	at com.fdmgroup.admins.stepdefinitions.DisplaySkills_stepdefinitions.the_user_is_logged_in_as_an_academy_admin_in_the_tms(DisplaySkills_stepdefinitions.java:26)
+	at ✽.The user is logged in as an Academy admin in the TMS(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2205_EditSkills.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The user is logged in as an Academy admin in the TMS..................failed
+When As an admin, test that I can edit,remove and select single or mutltiple  skills from dropdown.skipped
+Then Admin should be able to edit, remove or select single or multiple skils.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_12/Admins/TMS_2205/" as "TMS_2432".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TC_TMS User should be logged in to the system" time="21.289">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+And user clicks the login btn...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TMS_2435 Test that skills are sorted in alphabetically vertical order" time="13.748">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@routerlink,'admin')]&quot;}
+  (Session info: chrome=120.0.6099.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd8bfe9158f4b02b0a8fd7459bcc12c, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52958/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd8bfe9158f4b02b0a8fd7459bcc12c">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@routerlink,'admin')]"}
+  (Session info: chrome=120.0.6099.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfd8bfe9158f4b02b0a8fd7459bcc12c, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.199, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52958}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52958/devtoo..., se:cdpVersion: 120.0.6099.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd8bfe9158f4b02b0a8fd7459bcc12c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.DisplaySkillsPage.clickAdminLink(DisplaySkillsPage.java:41)
+	at com.fdmgroup.admins.stepdefinitions.DisplaySkills_stepdefinitions.the_user_is_logged_in_as_an_academy_admin_in_the_tms(DisplaySkills_stepdefinitions.java:26)
+	at ✽.The user is logged in as an Academy admin in the TMS(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2330_DisplaySkills.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given The user is logged in as an Academy admin in the TMS..................failed
+When As an admin, test that sorting skills is working properly..............skipped
+Then It should work.........................................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_12/Admins/TMS_2330/" as "TMS_2435".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TC_TMS User should be logout the system" time="12.883">
+<failure type="org.openqa.selenium.NoSuchElementException" message="Unable to find element with locator By.xpath: //*[contains(@class,'profile-icon')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver">
+<![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[contains(@class,'profile-icon')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.profileIconClick(ImportTraineePage.java:113)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.clicks_profile_icon_of_admin(ImportTrainees_stepdefinitions.java:238)
+	at ✽.clicks profile icon of admin(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2330_DisplaySkills.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+When clicks profile icon of admin...........................................failed
+And admin clicks the Logout button..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

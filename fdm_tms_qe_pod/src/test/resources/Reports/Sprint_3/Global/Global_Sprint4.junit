@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.052" tests="52" skipped="0" failures="0" errors="0">
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS_673_01 trainer should be able to see the profile card after log in" time="0.039">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainee...............................passed
+And user clicks the login button............................................passed
+And User click on the academy Directory Selection...........................passed
+And User should see the Train name, location, team and course on the page...passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_610/" as "TMS_673_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort trainer by name and filter trainer by location, team and course" name="TC_TMS_874_01 trainer should be sort trainers by name" time="0.007">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When User Enter valid id and password.......................................passed
+And user clicks the login button............................................passed
+And User click on the academy Directory Selection...........................passed
+And User click on the sort icon near next to name...........................passed
+And The name is sorted alphabetically.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_613/" as "TMS_874_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort trainer by name and filter trainer by location, team and course" name="TC_TMS_874_02 trainer should be filter trainers by location" time="0.004">
+<system-out><![CDATA[
+When User click on the filter icon next to Location column..................passed
+And the drop down select display is Location................................passed
+And User enter valid filter location message in the input for location......passed
+And The size of the table will be 1.........................................passed
+And The line with the filtered location is to be displayed..................passed
+And User cleared input field................................................passed
+And User entered invalid message in the input...............................passed
+And The size of the table will be 0.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_613/" as "TMS_874_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort trainer by name and filter trainer by location, team and course" name="TC_TMS_874_03 trainer should be filter trainers by team" time="0.003">
+<system-out><![CDATA[
+When User click on the filter icon next to Team column......................passed
+And the drop down select display is Team....................................passed
+And User enter valid filter team message in the input for team..............passed
+And The size of the table will be 1.........................................passed
+And The line with the filtered team is to be displayed......................passed
+And User cleared input field................................................passed
+And User entered invalid message in the input...............................passed
+And The size of the table will be 0.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_613/" as "TMS_874_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort trainer by name and filter trainer by location, team and course" name="TC_TMS_874_04 trainer should be filter trainers by course" time="0.003">
+<system-out><![CDATA[
+When User click on the filter icon next to Course column....................passed
+And the drop down select display is Course..................................passed
+And User enter valid filter course message in the input for team............passed
+And The size of the table will be 1.........................................passed
+And The line with the filtered course is to be displayed....................passed
+And User cleared input field................................................passed
+And User entered invalid message in the input...............................passed
+And The size of the table will be 0.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/TMS_613/" as "TMS_874_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access Navigation Bar" name="TC_TMS_832_01 trainer should be able to see the profile card after log in" time="0.004">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainee...............................passed
+And user clicks the login button............................................passed
+And User should see the navigation options for trainee......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/" as "TMS_832_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access Navigation Bar" name="TC_TMS_832_02 trainer should be able to see the profile card after log in" time="0.001">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainer...............................passed
+And user clicks the login button............................................passed
+And User should see the navigation options for trainer......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/" as "TMS_832_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access Navigation Bar" name="TC_TMS_832_03 trainer should be able to see the profile card after log in" time="0.008">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And user clicks the login button............................................passed
+And User should see the navigation options for Academy Admin................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/" as "TMS_832_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access Navigation Bar" name="TC_TMS_832_04 trainer should be able to see the profile card after log in" time="0.001">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Manager.......................passed
+And user clicks the login button............................................passed
+And User should see the navigation options for Academy Manager..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/AcademyUsers/" as "TMS_832_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_01 Test that Admin should be able to see page title on Create Stream page" time="0.011">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin confirm that "Create Stream" is displayed as a title of the page.passed
+Then "Create Stream" should be displayed as a page title....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_02 Test that Admin should be able to see hint text for Stream name, Region and Country" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin verify that "Enter Stream Name" is displayed as hint text for Stream Name input field.passed
+Then "Enter Stream Name" should be displayed as hint text for Stream Name input field.passed
+When Admin verify that "Select Region" is displayed as hint text for Region dropdown list.passed
+Then "Select Region" should be displayed as hint text for Region dropdown list.passed
+When Admin verify that "Select Country" is displayed as hint text for Country dropdown list.passed
+Then "Select Country" should be displayed as hint text for Country dropdown list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_03 Test that Admin should be able to enter Stream Name in Stream Name input field" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin click on Stream Name input field.................................passed
+Then The Stream Name input field should be editable.........................passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_04 Test that Admin should be able to select Color" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_05 Test that Admin should be able to select different Countries based on different Regions on Create Stream page" time="0.006">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "APAC" option from Region dropdown list...................passed
+Then "APAC" option should be selected from Region dropdown list.............passed
+When Admin select "EMEA" option from Region dropdown list...................passed
+Then "EMEA" option should be selected from Region dropdown list.............passed
+When Admin select "Germany" option from Country dropdown list...............passed
+Then "Germany" option should be selected from Country dropdown list.........passed
+When Admin select "Poland" option from Country dropdown list................passed
+Then "Poland" option should be selected from Country dropdown list..........passed
+When Admin select "UK" option from Country dropdown list....................passed
+Then "UK" option should be selected from Country dropdown list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_06 Test that Admin should be able to see no. of days in Duration in Days field" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin verify "5" no. of days in Duration in Days field.................passed
+Then "5" should be displayed in Duration in Days field......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_07 Test that Admin should be able to see Create a Stream button as disabled when all mandatory fields not filled" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin verify that Stream Name input field is empty.....................passed
+Then Stream Name input field should be empty................................passed
+When Admin verify that Select Color field is empty..........................passed
+Then Select Color field should be empty.....................................passed
+When Admin verify that Region is not selected...............................passed
+Then Region should not be selected..........................................passed
+When Admin verify that Country is not selected..............................passed
+Then Country should not be selected.........................................passed
+When Admin verify that Duration in Days field is empty......................passed
+Then Duration in Days field should be empty.................................passed
+When Admin verify that Create a Stream button is disabled...................passed
+Then Create a Stream button should be disabled..............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_08 Test that Admin should be able to add courses by clicking Add button" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_09 Test that Admin should be able to remove courses by clicking Remove button" time="0.005">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on "OOD" course from Selected Courses list.................passed
+Then "OOD" course should be selected from Selected Courses list.............passed
+When Admin click on Remove Button...........................................passed
+Then "OOD" course should be removed from Selected Courses list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_09".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_10 Test that Admin should be able to see removed courses into Available Courses list" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on "OOD" course from Selected Courses list.................passed
+Then "OOD" course should be selected from Selected Courses list.............passed
+When Admin click on Remove Button...........................................passed
+Then "OOD" course should be removed from Selected Courses list..............passed
+When Admin verify that "OOD" course is added back into Available Courses list.passed
+Then "OOD" course should be added into Available Courses list...............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_11 Test that Admin should be able to see pop-up with text &quot;Stream Created&quot; when click on Create Stream button" time="0.006">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Stream button....................................passed
+Then Pop-up window should be displayed with "Stream Created" text...........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_11".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_12 Test that Admin should be able to see all same data in pop-up window as filled on Create Stream page" time="0.008">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin verify "5" no. of days in Duration in Days field.................passed
+Then "5" should be displayed in Duration in Days field......................passed
+When Admin click on Create Stream button....................................passed
+Then Pop-up window should be displayed with "Stream Created" text...........passed
+When Admin verify Stream Name as "QA Test Stream" in pop-up window..........passed
+Then "QA Test Stream" should be displayed as Stream Name in pop-up window...passed
+When Admin verify Stream Color code as "##ff0000" in pop-up window..........passed
+Then "##ff0000" should be displayed as Stream Color code in pop-up window...passed
+When Admin verify Course Selected as "OOD" in pop-up window.................passed
+Then "OOD" should be displayed as Course Selected in pop-up window..........passed
+When Admin verify Duration of Stream as "5 Days" in pop-up window...........passed
+Then "5 Days" should be displayed as Duration of Stream in pop-up window....passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_12".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_13 Test that Admin should be able to close pop-up window when click on (x) close button" time="0.006">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Stream button....................................passed
+Then Pop-up window should be displayed with "Stream Created" text...........passed
+When Admin click on (x) close button........................................passed
+Then Pop-up window should be closed.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_13".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_14 Test that Admin should be able to see Ok button enabled in pop-up window" time="0.006">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Stream button....................................passed
+Then Pop-up window should be displayed with "Stream Created" text...........passed
+When Admin verify Ok button is displayed as enabled.........................passed
+Then Ok button should be displayed as enabled...............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_14".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to create a Stream, so I can populate it with courses." name="TC_TMS391_15 Test that Admin should be able to see Create Stream page when click on Create Another Stream button in pop-up window" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Stream page......passed
+When Admin enter "QA Test Stream" in Stream Name input field................passed
+Then The "QA Test Stream" should be entered into Stream Name input field....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add Button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Stream button....................................passed
+Then Pop-up window should be displayed with "Stream Created" text...........passed
+When Admin click on Create Another Stream button............................passed
+Then Admin should be redirect to Create Stream page.........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_237/" as "TMS_391_15".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_01 Test that Admin could be able to click on search box and enter text." time="0.005">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter text into search bar............................................passed
+Then text should be entered.................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_02 Test that Admin could be able to search for a trainer by typing in search box and calendar results update in real-time." time="0.002">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_03 Test that Admin could be able to search for a trainer and when at least 3 results populate in search box, a scroll bar appears within search box to allow scrolling through results." time="0.003">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And verify scroll bar should appear next to search box, which allows scrolling of results, when at least 3 results populate..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_04 Test that Admin could be able to search for a trainer and when results are found, the number of results is shown above the search bar." time="0.002">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter letter "A"......................................................passed
+And verify "0 results" is displayed above the search box....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_05 Test that Admin could be able to search for a trainer, then click on the name in the dropdown box to select the trainer to be displayed." time="0.003">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And I click on the name "Bruce Wayne" from the results dropdown that should be clickable.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_06 Test that Admin could be able to type a single letter into search box and the search returns the results of all trainers whose first names start with that letter." time="0.003">
+<system-out><![CDATA[
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first letters of a name of a trainer in the search box - "B".passed
+Then Only trainers whose first names start with the letter "B" should display on calendar view.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_699/" as "TMS_825_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_07 Test that Get request to /trainers should return status code 200 if database has all trainers" time="0.002">
+<system-out><![CDATA[
+When I send a Get request to "/trainer/trainers"............................passed
+Then Status code 200 should be return with data.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_01 Test that Admin can see a page of courses available when access to &quot;Course List&quot; functionality" time="0.005">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+Then Admin should be able to see Create Course Home Page....................passed
+When Validate Admin can see available courses on Create Course Home Page....passed
+Then Admin should be able to see available courses on Create Course Home Page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_02 Test that Admin can view list of courses and each course should contains details course name,course owner,course length and region" time="0">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+Then Admin should be able to see Create Course Home Page....................passed
+When Validate Admin can see each course in Course List with details course name, course owner, course length and region.passed
+Then Admin should be able to see each course with course name, course owner,course length and region.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_03 Test that Admin can sort courses based on Course Owner first name" time="0.003">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+Then Admin should be able to see Create Course Home Page....................passed
+When Click on sort button on column Course Owner and Validate course list is sorted in ascending order based on first name.passed
+Then Course List should be sorted by Course Owner in ascending order........passed
+When Click on sort button on column Course Owner and Validate course list is sorted in descending order based on first name.passed
+Then Course List should be sorted by in Course Owner descending order.......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_04 Test that Admin can sort courses based on course length" time="0.002">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+Then Admin should be able to see Create Course Home Page....................passed
+When Click on sort button on column Course Length and Validate course list is sorted in descending order based on days.passed
+Then Course List should be sorted by days in descending order...............passed
+When Click on sort button on column Course Length and Validate course list is sorted in ascending order based on days.passed
+Then Course List should be sorted by days in ascending order................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_05 Test that Admin can sort courses based on Country" time="0.002">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+Then Admin should be able to see Create Course Home Page....................passed
+When Click on sort button on column  Region/Country and Validate course list is sorted in ascending order based on Country.passed
+Then Course List should be sorted by Country in ascending order.............passed
+When Click on sort button on column  Region/Country and Validate course list is sorted in descending order based on Country.passed
+Then Course List should be sorted by Country in descending order............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_06 Test that Admin can filter courses based on Region" time="0.003">
+<system-out><![CDATA[
+Given Admin should be able to see Create Course Home Page...................passed
+When Click on filter button on Region/Country column and select checkbox NA.passed
+Then Only NA Region course list should be displayed.........................passed
+When Click on filter button on Region/Country column and select checkbox NA  and APAC.passed
+Then NA and APAC Region course list should be displayed.....................passed
+When Click on filter button on Region/Country column and select checkbox NA  and APAC and EMEA.passed
+Then NA and APAC and EMEA Region course list should be displayed............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_07 Test that Admin can search courses based on Course name" time="0.003">
+<system-out><![CDATA[
+Given Login as Admin to TMS and Go to Create Course Home Page...............passed
+When Enter course name as "SQL" in search textbox...........................passed
+Then Search result should be displayed "SQL" with the course name...........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_4/Admins/TMS_736/" as "TMS882_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Admin, I want to be able to view a list of existing courses in the system so that I can keep track of them." name="TC_TMS882_09 Test that GET request to /course should return status code 200 if database has all course" time="0.001">
+<system-out><![CDATA[
+When Send a Get request to "/course"........................................passed
+Then Status code 200 should be returned with data...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS User should be logged in to the system" time="0.01">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of CourseOwner............................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_01 Test that all the courses are available in the course Catalogue" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_1".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_02 Test that go to material button redirected to correct course material" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+And User is able to click on Proskills go to material button................passed
+Then User is redirected to Proskills course material button.................passed
+And User is able to click on go to OOD material button......................passed
+Then User is redirected to OOD course material button.......................passed
+And User is able to click on Botium go to material button...................passed
+Then User is redirected to Botium course material button....................passed
+And User is able to click on Business Analysis go to material button........passed
+Then User is redirected to Business Analysis course material button.........passed
+And User is able to click on Excel go to material button....................passed
+Then User is redirected to Excel course material button.....................passed
+And User is able to click on Git go to material button......................passed
+Then User is redirected to Git course material button.......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_2".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_03 Test that  if data table is dispalyed with columns and rows" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to see a table with rows and columns on ProSkills course Material Page.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to see a table with rows and columns on OOD course Material Page.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to see a table with rows and columns	on Business Analysis course Material Page.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to see a table with rows and columns on Excel course Material Page.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to see a table with rows and columns	on Git course Material Page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_3".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_04 Test that  if Check box is available in each row to select the file" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to verify if check box is available on ProSkills course Material Page.passed
+And user can  select or unselect file.......................................passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to verify if check box is available on OOD course Material Page.passed
+And user can  select or unselect file on OOD................................passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to verify if check box is available on Business Analysis course Material Page.passed
+And user can  select or unselect file on Business Analysis..................passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to verify if check box is available on Excel course Material Page.passed
+And user can  select or unselect file on Excel..............................passed
+When User is on Git course Material Page....................................passed
+Then User should be able to verify if check box is available on Git course Material Page.passed
+And user can  select or unselect file on Git................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_4".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_05 Test that if File name column is there" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User check if there is filename given to each file on ProSkills course Material Page.passed
+When User is on OOD course Material Page....................................passed
+Then User check if there is filename given to each file on OOD course Material Page.passed
+When User is on Business Analysis course Material Page......................passed
+Then User check if there is filename given to each file on Business Analysis course Material Page.passed
+When User is on Excel course Material Page..................................passed
+Then User check if there is filename given to each file on Excel course Material Page.passed
+When User is on Git course Material Page....................................passed
+Then User check if there is filename given to each file on Git course Material Page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_5".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_06 Test that if &quot;file modification column&quot; is available" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check modification date column in the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check modification date column in the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check modification date column in the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check modification date column in the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check modification date column in the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_6".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_07 Test that if  &quot;size of file&quot; column is available" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if size column is displayed  in the ProSkills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if size column is displayed  in the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if size column is displayed  in the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if size column is displayed  in the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if size column is displayed  in the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_7".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_09 Test that if &quot;view icon&quot; is available in the row" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_9".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_10 Test that if &quot;download icon&quot; is available in the row" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_11 Test that if &quot;delete icon&quot; is available in the row" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in  the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_11".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_12 Test that if Archive/Unarchive  icon is available in the row" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_12".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="Verify GET Request for Course Material" time="0.009">
+<system-out><![CDATA[
+Given a GET request is made to "/course-material/1".........................passed
+Then the response status code should be 200.................................passed
+And the response should contain the following details:......................passed
+]]></system-out>
+</testcase>
+</testsuite>

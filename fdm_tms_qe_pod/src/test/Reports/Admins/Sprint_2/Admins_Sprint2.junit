@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testsuite name="Cucumber" time="37.977" tests="13" skipped="0" failures="0" errors="0">
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_01 Test that Admin should be able to enter Assessment Name in &quot;Assessment Name&quot; input field" time="3.174">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Assessment Name input field.............................passed
+Then The input field should be editable.....................................passed
+When Admin enter "QA Test" in Assessment Name input field...................passed
+Then The "QA Test" should be entered into input field.......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_02 Test that Admin should be able to select different status from the &quot;Status&quot; dropdown list" time="3.193">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin select "Inactive" status from Status dropdown list...............passed
+Then "Inactive" status should be selected...................................passed
+When Admin select "Select status" status from Status dropdown list..........passed
+Then "Select status" status should be selected..............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_03 Test that Admin should be able to select different grade scale from the &quot;Grade Scale&quot; dropdown list" time="3.188">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin select "Other" option from Grade Scale dropdown list.............passed
+Then "Other" option should be selected......................................passed
+When Admin select "Select Grade Scale" option from Grade Scale dropdown list.passed
+Then "Select Grade Scale" option should be selected.........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_04 Test that Admin should be able to enter description in &quot;Description&quot; input field" time="2.031">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Description input field.................................passed
+Then The Description input field should be editable.........................passed
+When Admin enter "QA Test Description" in Description input field...........passed
+Then The "QA Test Description" should be entered into Description input field.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_05 Test that Admin should be able to enter instructions in &quot;Instructions&quot; input field" time="2.065">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Instructions input field................................passed
+Then The Instructions input field should be editable........................passed
+When Admin enter "QA Test Instructions" in Instructions input field.........passed
+Then The "QA Test Instructions" should be entered into Instructions input field.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_06 Test that Admin should be able to see &quot;Create&quot; button disabled when mandatory fields are empty" time="2.083">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin check that mandatory field Assessment Name is empty..............passed
+Then Assessment Name input field should be empty............................passed
+When Admin check that mandatory field Status is selected as "Select status" option.passed
+Then Status dropdown list should be selected as "Select status" option......passed
+When Admin check that mandatory field Grade Scale is selected as "Select Grade Scale" option.passed
+Then Grade Scale dropdown list should be selected as "Select Grade Scale" option.passed
+When Admin confirm that Create button is disabled...........................passed
+Then Create button should be disabled.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_07 Test that Admin should be able to see &quot;Create&quot; button enabled when mandatory fields are filled" time="3.111">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin confirm that Create button is enabled............................passed
+Then Create button should be enabled........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_08 Test that Admin should be able to clear all fields when click on &quot;Cancel&quot; button" time="3.559">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Cancel Button" in Assessment Name input field........passed
+Then "Test Cancel Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin enter "Test Description" in Description input field..............passed
+Then The "Test Description" should be entered into Description input field..passed
+When Admin enter "Test Instructions" in Instructions input field............passed
+Then The "Test Instructions" should be entered into Instructions input field.passed
+When Admin click on Cancel button...........................................passed
+Then Data from all the fields should be cleared.............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_09 Test that Admin should be able to see heading on Create Assessment page" time="1.972">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin confirm that "Create Assessment Form" is displayed as a heading of the page.passed
+Then "Create Assessment Form" should be displayed as a page heading.........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_09".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_10 Test that Admin should be able to see pop-up with text &quot;Assessment created successfully.&quot; when click on &quot;Create&quot; button" time="3.34">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with text "Assessment created successfully.".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_11 Test that Admin should be able to see pop-up with text &quot;Assessment already exists. Try different assessment name.&quot; when click on &quot;Create&quot; button" time="3.308">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with text "Assessment already exists. Try different assessment name.".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_11".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_12 Test that Admin should be able to close pop-up when click on &quot;x&quot; close buton" time="3.365">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test close Button" in Assessment Name input field.........passed
+Then "Test close Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with the x close button on top-right corner.passed
+When Admin click on x close button..........................................passed
+Then Pop-up should be closed................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_12".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_13 Test that Admin should be able to open Customize Form page when click on &quot;Customize Form&quot; button inside the pop-up" time="3.446">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Customize Form" in Assessment Name input field.......passed
+Then "Test Customize Form" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with Customize Form button..................passed
+When Admin click on Customize Form button...................................passed
+Then Customize Form page should be displayed................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_13".passed
+=======
+<testsuite name="Cucumber" time="201.42" tests="10" skipped="0" failures="0" errors="0">
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_01 Verify that Enter FDM Email Address input field is available." time="75.333">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM Email address......................................passed
+Then it should be clickable and viewable....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_02 Verify that user can enter text in ‘Enter FDM Email Address’" time="19.511">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM Email address......................................passed
+Then it should accept text..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_03 Verify that Confirm FDM Email Address input field is available" time="18.391">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Confirm FDM Email address....................................passed
+Then it should be clickable and viewable....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_04 Verify that user can enter text in ‘Confirm FDM Email Address’" time="20.444">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Confirm FDM Email address....................................passed
+Then it should accept text..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_05 Verify that ‘Request new password’ button is clickable" time="16.592">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on request new password button..................................passed
+Then it should be clickable.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_06 Verify that clicking on ‘Back to Login’ will redirect to login page" time="8.573">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on back to login button.........................................passed
+Then it should redirect to login page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_07 Verify that user is receiving ‘Please enter a valid FDM email address’ error if its not ending with @fdmgroup.com" time="11.878">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM email address......................................passed
+And I write the email address that's not end with @fdmgroup.com.............passed
+Then it should give the error...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_08 Verify that email passed in both the fields of enter fdm email and confirm email matches with each other" time="8.071">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I enter FDM email address...............................................passed
+And I enter Confirm FDM email address.......................................passed
+Then both fields should match...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_09 Verify that user is receiving ‘Emails do not match. Please try again’ error if both of fields are not matching with each other" time="12.041">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM email address......................................passed
+And I write the email address...............................................passed
+And I click on Confirm FDM email address....................................passed
+And I write the email address different than first field....................passed
+Then It should give the error ‘The entered email does not match’............passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_10 Verify that user receives Password reset request submited once it enter valid username password" time="9.61">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I enter valid Confirm FDM email address.................................passed
+And I enter valid FDM email address.........................................passed
+And I click on Request new password button..................................passed
+Then it should be clickable and should display confirmation message Password reset request submited.passed
+>>>>>>> e34bb87... Updated code
+]]></system-out>
+</testcase>
+</testsuite>

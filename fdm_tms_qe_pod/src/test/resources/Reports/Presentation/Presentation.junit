@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.244" tests="18" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_2059 As a user, I want my log in to be authenticated to ensure my privacy" name="TMS_2080 Test that login is working properly" time="3.7">
+<system-out><![CDATA[
+Given User is on tms page and checks the login button.......................passed
+When user enters correct credentials........................................passed
+And user clicks on login button.............................................passed
+Then user checks logout button..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_2059/" as "TMS_2080".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2059 As a user, I want my log in to be authenticated to ensure my privacy" name="TMS_2081 Test that authentication failed message is displayed when login credentials are invalid" time="2.484">
+<system-out><![CDATA[
+Given User is on tms page and checks the login button.......................passed
+When user enters incorrect credentials......................................passed
+And user clicks on login button.............................................passed
+Then authentication failed message should display...........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_2059/" as "TMS_2081".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_27 Sort Filter on Start Date" name="TC_TMS205_03 Test that Admin can intially see  one weekly calendar" time="2.828">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then As a Admin, I should see One Week View by default in the left top corner button..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_27/" as "TMS_205_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_27 Sort Filter on Start Date" name="TC_TMS205_04 Test that Admin can see the calendar that is aligned to current date." time="2.784">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then As a Admin, I should see that the date displayed on center top is aligned to current date..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_27/" as "TMS_205_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_27 Sort Filter on Start Date" name="TC_TMS205_05 Test that Admin can see list of Trainers name in the first Column." time="2.732">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Verify that as a admin, I should see that all the trainers are listed in the first column in the table.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_27/" as "TMS_205_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_27 Sort Filter on Start Date" name="TC_TMS205_06 Test that Calendar has AM and PM section for each day in the date." time="2.812">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then As a Admin, I should see that each date is divided further in two sections AM and PM..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_27/" as "TMS_205_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_27 Sort Filter on Start Date" name="TC_TMS205_07 Test that Calendar has 1 week calendar button in the right top corner." time="2.792">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then As a Admin, admin clicks on One week button on right top corner........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_27/" as "TMS_205_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_579 As an admin, I want the ability to click on the single arrow and select next and previous week on the calendar, so that I can view the schedule for the next and previous week." name="TC_TMS586_03 Test that Admin could be able to click on the back arrow to the left of the calendar date range to view the previous week schedule." time="2.841">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin click on the calendar button on the navigation bar...............passed
+Then TMS calendar view should be displayed..................................passed
+When Admin click on the forward arrow button to the right of the calendar date range, under the navigation bar..passed
+Then Dates below the days of the week and above the AM/PM sloths should display next week's dates..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_579/" as "TMS586_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_579 As an admin, I want the ability to click on the single arrow and select next and previous week on the calendar, so that I can view the schedule for the next and previous week." name="TC_TMS586_04 Test that Admin could be able to click on the back arrow to the left of the calendar date range to view the previous week schedule." time="2.957">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+When Admin click on the calendar button on the navigation bar...............passed
+Then TMS calendar view should be displayed..................................passed
+When Admin click on the back arrow button to the left of the calendar date range, under the navigation bar..passed
+Then Dates below the days of the week and above the AM/PM sloths should display the previous week's dates..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentation/TMS_579/" as "TMS586_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_01 Test that Admin could be able to click on search box and enter text." time="2.975">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter text into search bar............................................passed
+Then text should be entered.................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_02 Test that Admin could be able to search for a trainer by typing in search box and calendar results update in real-time." time="2.824">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_03 Test that Admin could be able to search for a trainer and when at least 3 results populate in search box, a scroll bar appears within search box to allow scrolling through results." time="2.734">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And verify scroll bar should appear next to search box, which allows scrolling of results, when at least 3 results populate..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_04 Test that Admin could be able to search for a trainer and when results are found, the number of results is shown above the search bar." time="2.723">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter letter "A"......................................................passed
+And verify "0 results" is displayed above the search box....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_05 Test that Admin could be able to search for a trainer, then click on the name in the dropdown box to select the trainer to be displayed." time="2.784">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first two letters of a name of a trainer in the search box - "Br".passed
+Then Multiple results should populate in the search box with names starting with "Br-".passed
+And I click on the name "Bruce Wayne" from the results dropdown that should be clickable.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_06 Test that Admin could be able to type a single letter into search box and the search returns the results of all trainers whose first names start with that letter." time="2.805">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And I enter the first letters of a name of a trainer in the search box - "B".passed
+Then Only trainers whose first names start with the letter "B" should display on calendar view.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_825_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_825_07 Test that GET request to /trainers should return status code 200 if database has all trainers" time="3.015">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given I perform authentication operation for "/authentication/login" with body.passed
+When I send a Get request to "/trainer/trainers"............................passed
+Then Status code 200 should be return with data.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_1085_01 Test that admin can type any keyword in search option then it should display all the trainers whose first name and last name start with those keywords" time="3.062">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given Admin is navigated to calendar page...................................passed
+When I click on search box..................................................passed
+Then it should be clicked...................................................passed
+And enter the first letters of trainer name in the search box - "J".........passed
+Then It should display each and every trainers whose first name and last name starts with "J".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Presentations/TMS_699/" as "TMS_1085_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an admin, I want to be able to use the search option in the calendar so that I can quickly" name="TMS_1085_02 Test that GET request to /trainer/{id} should return specific trainers according to given user id" time="2.283">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+Then user clicks the Login button...........................................passed
+Given I perform authentication operation for "/authentication/login" with body.passed
+When send a Get request to "/trainer/9".....................................passed
+Then Status code 200 should return..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

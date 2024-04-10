@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="1.876" tests="62" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_887 Breadcrumbs are displayed while clicking on different pages" name="TC_TMS_911 User should be able to see clickable breadcrumbs on Academy Directory Page" time="0.037">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainee...............................passed
+And Navigate to the Home Page using url.....................................passed
+Then User should be able to see the breadcrumbs home........................passed
+And Navigate to the Academy Directory page using url........................passed
+And Navigate to the Profile Card from navbar................................passed
+And User clicks on bread crumb academy directory............................passed
+And User should be taken to academy directory page..........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/AcademyUsers/TMS_887/" as "TMS_911".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_887 Breadcrumbs are displayed while clicking on different pages" name="TC_TMS_912 User should be able to see clickable breadcrumbs on profile card page" time="0.002">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainer...............................passed
+And Navigate to the Home Page using url.....................................passed
+And User should be able to see the breadcrumbs home.........................passed
+And Navigate to the Profile Card using URL..................................passed
+And User should be able to see the breadcrumbs profile card.................passed
+And User clicks on breadcrumb home..........................................passed
+And User should be taken to home page.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/AcademyUsers/TMS_887/" as "TMS_912".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_01 Test that Admin should be able to see page title on Create Pathway page" time="0.008">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin confirm that "Create Pathway" is displayed as a title of the page.passed
+Then "Create Pathway" should be displayed as a page title...................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_02 Test that Admin should be able to see hint text for Pathway name, Region and Country" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin verify that "Enter Pathway Name" is displayed as hint text for Pathway Name input field.passed
+Then "Enter Pathway Name" should be displayed as hint text for Pathway Name input field.passed
+When Admin verify that "Select Region" is displayed as hint text for Region dropdown list.passed
+Then "Select Region" should be displayed as hint text for Region dropdown list.passed
+When Admin verify that "Select Country" is displayed as hint text for Country dropdown list.passed
+Then "Select Country" should be displayed as hint text for Country dropdown list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS1129_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_03 Test that Admin should be able to enter Pathway Name in Pathway Name input field" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin click on Pathway Name input field................................passed
+Then The Pathway Name input field should be editable........................passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_04 Test that Admin should be able to select Color" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_05 Test that Admin should be able to select different Countries based on different Regions on Create Pathway page" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "APAC" option from Region dropdown list...................passed
+Then "APAC" option should be selected from Region dropdown list.............passed
+When Admin select "EMEA" option from Region dropdown list...................passed
+Then "EMEA" option should be selected from Region dropdown list.............passed
+When Admin select "Germany" option from Country dropdown list...............passed
+Then "Germany" option should be selected from Country dropdown list.........passed
+When Admin select "Poland" option from Country dropdown list................passed
+Then "Poland" option should be selected from Country dropdown list..........passed
+When Admin select "UK" option from Country dropdown list....................passed
+Then "UK" option should be selected from Country dropdown list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_06 Test that Admin should be able to select different Countries based on different Regions on Create Pathway page" time="0.005">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Bruce Wayne" option from Pathway Owner dropdown list.....passed
+Then "Bruce Wayne" option should be selected from Pathway Owner dropdown list.passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "Peter Parker" option from Pathway Owner dropdown list....passed
+Then "Peter Parker" option should be selected from Pathway Owner dropdown list.passed
+When Admin select "Clark Kent" option from Pathway Owner dropdown list......passed
+Then "Clark Kent" option should be selected from Pathway Owner dropdown list.passed
+When Admin select "Foo Bar" option from Pathway Owner dropdown list.........passed
+Then "Foo Bar" option should be selected from Pathway Owner dropdown list...passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_07 Test that Admin should be able to enter description in Description input field" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin click on Description input field.................................passed
+Then The Description input field should be editable.........................passed
+When Admin enter "QA Test Description" in Description input field...........passed
+Then The "QA Test Description" should be entered into Description input field.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_08 Test that Admin should be able to see no. of days in Duration in Days field" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin verify "5" no. of days in Duration in Days field.................passed
+Then "5" should be displayed in Duration in Days field......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_09 Test that Admin should be able to see no. of weeks in Duration in Weeks field" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin verify "1" no. of weeks in Duration in Weeks field...............passed
+Then "1" should be displayed in Duration in Weeks field.....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_09".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_10 Test that Admin should be able to see Create a Pathway button as disabled when all mandatory fields not filled" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin verify that Pathway Name input field is empty....................passed
+Then Pathway Name input field should be empty...............................passed
+When Admin verify that Select Color field is empty..........................passed
+Then Select Color field should be empty.....................................passed
+When Admin verify that Region is not selected...............................passed
+Then Region should not be selected..........................................passed
+When Admin verify that Country is not selected..............................passed
+Then Country should not be selected.........................................passed
+When Admin verify that Pathway Owner dropdown list not selected any option..passed
+Then Pathway Owner dropdown list should not be selected an option...........passed
+When Admin verify that Duration in Days field is empty......................passed
+Then Duration in Days field should be empty.................................passed
+When Admin verify that Create a Pathway button is disabled..................passed
+Then Create a Pathway button should be disabled.............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_11 Test that Admin should be able to add courses by clicking Add button" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_11".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_12 Test that Admin should be able to remove courses by clicking Remove button" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on "OOD" course from Selected Courses list.................passed
+Then "1     OOD" course should be selected from Selected Courses list.......passed
+When Admin click on Remove button...........................................passed
+Then "OOD" course should be removed from Selected Courses list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_12".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_13 Test that Admin should be able to see removed courses into Available Courses list" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on "OOD" course from Selected Courses list.................passed
+Then "1     OOD" course should be selected from Selected Courses list.......passed
+When Admin click on Remove button...........................................passed
+Then "OOD" course should be removed from Selected Courses list..............passed
+When Admin verify that "OOD" course is added back into Available Courses list.passed
+Then "OOD" course should be added into Available Courses list...............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_13".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_14 Test that Admin should be able to see pop-up with text Pathway Created when click on Create Pathway button" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Pathway button...................................passed
+Then Pop-up window should be displayed with "Pathway Created" text..........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_14".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_15 Test that Admin should be able to see all same data in pop-up window as filled on Create Pathway page" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin verify "5" no. of days in Duration in Days field.................passed
+Then "5" should be displayed in Duration in Days field......................passed
+When Admin verify "1" no. of weeks in Duration in Weeks field...............passed
+Then "1" should be displayed in Duration in Weeks field.....................passed
+When Admin enter "QA Test Description" in Description input field...........passed
+Then The "QA Test Description" should be entered into Description input field.passed
+When Admin click on Create Pathway button...................................passed
+Then Pop-up window should be displayed with "Pathway Created" text..........passed
+When Admin verify Pathway Name as "QA Test Pathway" in pop-up window........passed
+Then "QA Test Pathway" should be displayed as Pathway Name in pop-up window.passed
+When Admin verify Pathway Color code as "##ff0000" in pop-up window.........passed
+Then "##ff0000" should be displayed as Pathway Color code in pop-up window..passed
+When Admin verify Pathway Owner as "James Bond" in pop-up window............passed
+Then "James Bond" should be displayed as Pathway Owner in pop-up window.....passed
+When Admin verify Description as "QA Test Description" in pop-up window.....passed
+Then "QA Test Description" should be displayed as Description in pop-up window.passed
+When Admin verify Course Selected as "OOD" in pop-up window.................passed
+Then "OOD" should be displayed as Course Selected in pop-up window..........passed
+When Admin verify Duration of Pathway as "5 Days" in pop-up window..........passed
+Then "5 Days" should be displayed as Duration of Pathway in pop-up window...passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_15".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_16 Test that Admin should be able to close pop-up window when click on (x) close button" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Pathway button...................................passed
+Then Pop-up window should be displayed with "Pathway Created" text..........passed
+When Admin click on (x) close button........................................passed
+Then Pop-up window should be closed.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_16".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_17 Test that Admin should be able to see Ok button enabled in pop-up window" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Pathway button...................................passed
+Then Pop-up window should be displayed with "Pathway Created" text..........passed
+When Admin verify Ok button is displayed as enabled.........................passed
+Then Ok button should be displayed as enabled...............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_17".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1020 As an Admin, I want to have the ability to create and manage learning pathways for employees. This includes adding a description, selecting a pathway owner." name="TC_TMS1129_18 Test that Admin should be able to see Create Pathway page when click on Create Another Pathway button in pop-up window" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin enter "QA Test Pathway" in Pathway Name input field..............passed
+Then The "QA Test Pathway" should be entered into Pathway Name input field..passed
+When Admin click on Select Color field......................................passed
+Then The color picker window should be open.................................passed
+When Admin select Red color "#ff0000" from color picker window..............passed
+Then The Red color "#ff0000" should be selected for select color field......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "James Bond" option from Pathway Owner dropdown list......passed
+Then "James Bond" option should be selected from Pathway Owner dropdown list.passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "OOD" course should be added into Selected Courses list................passed
+When Admin click on Create Pathway button...................................passed
+Then Pop-up window should be displayed with "Pathway Created" text..........passed
+When Admin click on Create Another Pathway button...........................passed
+Then Admin should be redirect to Create Pathway page........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1020/" as "TMS_1129_18".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_01 Test that Admin should be able to see the page title" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin confirm that "Current Pathways" is displayed as a title of the page.passed
+Then "Current Pathways" should be displayed as a page title.................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_02 Test that Admin should be able to see list of pathways name" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin confirm that "Java Development" is in the list of Pathways.......passed
+Then "Java Development" should be displayed in the list of Pathways.........passed
+When Admin confirm that "BAPM" is in the list of Pathways...................passed
+Then "BAPM" should be displayed in the list of Pathways.....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_03 Test that Admin should be able to see other details for specific pathway" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that Red color is displayed as a Color for "Java Development" Pathway.passed
+Then Red color should be displayed as a Color for "Java Development" Pathway.passed
+When Admin verify that "Peter Parker" is displayed as a Pathway Owner for "Java Development" Pathway.passed
+Then "Peter Parker" should be displayed as a Pathway Owner for "Java Development" Pathway.passed
+When Admin verify that Null Value is displayed as a Description for "Java Development" Pathway.passed
+Then Null Value should be displayed as a Description for "Java Development" Pathway.passed
+When Admin verify that "5" is displayed as a Pathway Length(w) for "Java Development" Pathway.passed
+Then "5" should be displayed as a Pathway Length(w) for "Java Development" Pathway.passed
+When Admin verify that "NA/Canada" is displayed as a Region/Country for "Java Development" Pathway.passed
+Then "NA/Canada" should be displayed as a Region/Country for "Java Development" Pathway.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_04 Test that Admin should be able to sort the Pathway Owner" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that sorting button is displayed besides Pathway Owner....passed
+Then Sorting button should be displayed besides Pathway Owner...............passed
+When Admin click on sorting button besides Pathway Owner....................passed
+Then Pathway Owner list should be sorted in ascending order.................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_05 Test that Admin should be able to sort the Pathway Length" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that sorting button is displayed besides Pathway Length...passed
+Then Sorting button should be displayed besides Pathway Length..............passed
+When Admin click on sorting button besides Pathway Length...................passed
+Then Pathway Length list should be sorted in ascending order................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_06 Test that Admin should be able to sort the Region/Country" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that sorting button is displayed besides Region/Country...passed
+Then Sorting button should be displayed besides Region/Country..............passed
+When Admin click on sorting button besides Region/Country...................passed
+Then Region/Country list should be sorted in ascending order................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_07 Test that Admin should be able to filter the Region/Country" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that filter button is displayed besides Region/Country....passed
+Then Filter button should be displayed besides Region/Country...............passed
+When Admin click on filter button besides Region/Country....................passed
+Then Filter pop-up should be displayed......................................passed
+When Admin click on NA option from filter pop-up............................passed
+Then Pathway list should be filtered with only NA region....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_08 Test that Admin should be able to search for different pathways name" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that searchbar is displayed with hint text "Search Name"..passed
+Then Searchbar should be displayed with hint text "Search Name".............passed
+When Admin search for "Java" Pathway Name...................................passed
+Then "Java Development" should be displayed in the list of Pathways.........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_09 Test that Admin should be able to navigate to the Create Pathway page when click on Create Pathway button" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Pathway Home page.......passed
+When Admin verify that Create Pathway button should be displayed as enabled.passed
+Then Create Pathway button should be displayed as enabled...................passed
+When Admin click on Create Pathway button on Pathway Home page..............passed
+Then Admin should be redirect to Create Pathway page from Pathway Home page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1022/" as "TMS_1174_09".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1022 As an Admin, I want to be able to view existing pathways in the system based on pathway name, assigned color, pathway owner, description, pathway length, and region so that I can stay well-informed about the learning pathways." name="TC_TMS1174_10 Test that Get request to /pathways should return status code 200 if database has all pathways" time="0">
+<system-out><![CDATA[
+When I perform GET operation for "/pathways"................................passed
+Then Status code 200 should be return with requested data...................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1076 As an Admin, I want to be able to manage learning pathways for employees So I can govern courses within the pathway" name="TC_TMS1173_01 Test that Admin should be able to see the courses index numbers in Selected Courses List" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "1" should display as an index for "OOD" course in Selected Courses list.passed
+When Admin click on "AEM" course from Available Courses list................passed
+Then "AEM" course should be selected from Available Courses.................passed
+Then "2" should display as an index for "AEM" course in Selected Courses list.passed
+When Admin click on "Botium" course from Available Courses list.............passed
+Then "Botium" course should be selected from Available Courses..............passed
+Then "3" should display as an index for "Botium" course in Selected Courses list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1076/" as "TMS_1173_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1076 As an Admin, I want to be able to manage learning pathways for employees So I can govern courses within the pathway" name="TC_TMS1173_02 Test that Admin should be able to change the sequence of courses by drag and drop in Selected Courses List" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin click on "OOD" course from Available Courses list................passed
+Then "OOD" course should be selected from Available Courses.................passed
+When Admin click on Add button..............................................passed
+Then "1" should display as an index for "OOD" course in Selected Courses list.passed
+When Admin click on "AEM" course from Available Courses list................passed
+Then "AEM" course should be selected from Available Courses.................passed
+Then "2" should display as an index for "AEM" course in Selected Courses list.passed
+When Admin click on "Botium" course from Available Courses list.............passed
+Then "Botium" course should be selected from Available Courses..............passed
+Then "3" should display as an index for "Botium" course in Selected Courses list.passed
+When Admin drag and drop the "Botium" course to index no. "1"...............passed
+Then "1" should display as an index for "Botium" course in Selected Courses list.passed
+When Admin drag and drop the "AEM" course to index no. "1"..................passed
+Then "1" should display as an index for "AEM" course in Selected Courses list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_1076/" as "TMS_1173_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_01 Test that Admin can use filter buttons to display trainers even if they do not have courses scheduled for the week." time="0.002">
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on region, pathway and course..................................passed
+Then Filter options should be selected......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_02 Test that Admin can click on the Region button on the Calendar screen to expand a multi-select list to filter the Regions of trainers." time="0">
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Region filter button on the top left of the screen......passed
+Then Region filter button clicked...........................................passed
+And Verify 3 options are available to be selected in the Region multi-select list..passed
+Then 3 options are available to be selected in the Region multi-select list..passed
+And Select "North America" for the Region filter............................passed
+Then North America selected for Region filter...............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_03 Test that Admin can click on the Pathway button on the Calendar screen to expand a multi-select list to filter the Streams that trainers are teaching." time="0.001">
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Pathway filter button on the top left of the screen.....passed
+Then Pathway filter button should be clicked................................passed
+And Verify the 3 options are available to be selected in the Pathway multi-select list..passed
+Then Java Development, Cloud Computing and BAPM options are available to be selected in the Pathway multi-select list..passed
+And Select "Java" for the Pathway filter....................................passed
+Then Verify calendar filtered only Java pathway trainers for view...........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_04 Test that Admin can click on the Course button on the Calendar screen to expand a multi-select list to filter the Courses that trainers are teaching." time="0">
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Course filter button on the top left of the screen......passed
+Then it should be clicked...................................................passed
+And select "AEM" for the Course filter......................................passed
+Then verify only AEM course trainers are shown on calendar..................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_05 Test that Admin can select multiple filters at once to filter trainers." time="0.001">
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Region filter button on the top left of the screen......passed
+Then it should be clicked...................................................passed
+And select "North America" for the Region filter............................passed
+Then Calendar filtered only North American trainers for view................passed
+And click on the Pathway filter button on the top left of the screen........passed
+And select "Java" for the Pathway filter....................................passed
+Then Calendar filtered only Java pathway trainers in North America for view..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_06 Test that Get request to /trainer/trainers should return a list of trainers" time="0.005">
+<system-out><![CDATA[
+When I send a Get request to "/trainer/trainers" using Postman..............passed
+Then I should see the name of trainers......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_07 Test that GET request to /trainer/{id} should return null if trainer is not in database" time="0">
+<system-out><![CDATA[
+When send a Get request to "/trainer/50"....................................passed
+Then it should return <null>................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an Admin, I want to use the search option in the calendar so that I can quickly" name="TMS_1085_01 Test that admin can type any keyword in search option then it should display all the trainers whose first name and last name start with those keywords" time="0.001">
+<system-out><![CDATA[
+Given Admin clicked calendar view...........................................passed
+When click on the search box................................................passed
+Then it should be clicked...................................................passed
+And enter the first letters of trainer name in the search box - "J".........passed
+Then It should display each and every trainers whose first name and last name starts with "J".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_1085_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_699 As an Admin, I want to use the search option in the calendar so that I can quickly" name="TMS_1085_02 Test that GET request to /trainer/{id} should return specific trainers according to given user id" time="0">
+<system-out><![CDATA[
+When send a Get request to "/trainer/9".....................................passed
+Then Status code 200 should return..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_700 As an Admin, I want to have a two-weeks calendar view where I can view the trainers' schedules for the given two weeks." name="TC_TMS1297_01 Test that Admin can select &quot;1 week&quot; view" time="0">
+<system-out><![CDATA[
+Given Admin is on Calendar page.............................................passed
+When As an Admin, click on drop down arrow of week button...................passed
+Then Admin should be able to see drop down list with options "1 Week", "2 Weeks".passed
+When As an Admin,click on one week option from the drop down list...........passed
+Then Trainers schedule for one week should be displayed.....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_700/" as "TMS1297_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_700 As an Admin, I want to have a two-weeks calendar view where I can view the trainers' schedules for the given two weeks." name="TC_TMS1297_01 Test that Admin can select &quot;2 weeks&quot; view" time="0">
+<system-out><![CDATA[
+Given Admin is on Calendar page.............................................passed
+When As an Admin, click on drop down arrow of week button...................passed
+Then Admin should be able to see drop down list with options "1 Week", "2 Weeks".passed
+When As an Admin,click on two weeks option from the drop down list..........passed
+Then Trainers schedule for two weeks should be displayed....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_700/" as "TMS1297_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_01 Test that admin can click on sort icon" time="0">
+<system-out><![CDATA[
+Given Admin is on Calendar page.............................................passed
+When Click on sort icon.....................................................passed
+Then It should be clickable.................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_02 Test that after clicking on sort icon, the icon should be highlighted and list of trainer should be sorted in descending order by their first name" time="0">
+<system-out><![CDATA[
+Given Admin is on Calendar page.............................................passed
+When Click on sort icon.....................................................passed
+Then It should be clickable.................................................passed
+Then Sort icon should be highlighted and trainer list should be sort in descending order.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_03 Test that clicking on sort icon once its applied, the icon shouldn't be highlighted and list of trainer should be sorted in ascending(default) order by their first name" time="0">
+<system-out><![CDATA[
+Given Admin is on Calendar page.............................................passed
+When Click on sort icon.....................................................passed
+Then It should be clickable.................................................passed
+When Check that clicking on sort icon once its applied, it should not be highlighted and trainer list should be sorted in ascending order.passed
+Then Sort icon shouldn't be highlighted and trainer list should be sort in ascending order.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_04 Verify that GET request to /trainer/trainers should return status code 200 if database has all trainers" time="0">
+<system-out><![CDATA[
+When In Postman ,send a Get request to  "/trainer/trainers".................passed
+Then Status code 200 should be returned with data...........................passed
+And I should see the name of trainers.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_05 Verify that GET request to /trainer/id should return status code 200 if database has trainers for that id" time="0">
+<system-out><![CDATA[
+When send a Get request with path parameter to  "/trainer/{userId}".........passed
+Then I should see the trainer firstname name as "Peter".....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_735 As an Admin, I want to have the ability to sort trainers in the calendar so that I can view the trainers in alphabetical order." name="TC_TMS1176_06 Verify that GET request to /trainer/id should return status code 200 if database has no trainers for that id" time="0">
+<system-out><![CDATA[
+When send a Get request with path parameter to  "/trainer/{userId}".........passed
+Then Status code 200 should be returned with data...........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_735/" as "TMS1176_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS User should be logged in to the system" time="0.002">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of CourseOwner............................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_01 Verify if Course Material filter is displayed with dropdown list" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a course material filter download after search button in Proskills.passed
+And There should be all materials placehholder in  Proskills drop down menu.passed
+And There should be Current Materials placehholder in Proskills drop down menu.passed
+Then There should be Archived Materials placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a course material filter download after search button in OOD.passed
+And There should be all materials placehholder in OOD drop down menu........passed
+And There should be Current Materials placehholder in OOD drop down menu....passed
+Then There should be Archived Materials placehholder in OOD drop down menu..passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a course material filter download after search button in Business Analysis.passed
+And There should be all materials placehholder in Business Analysis drop down menu.passed
+And There should be Current Materials placehholder in Business Analysis drop down menu.passed
+Then There should be select Archived Materials placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a course material filter download after search button in Excel.passed
+And There should be all materials placehholder in Excel drop down menu......passed
+And There should be Current Materials placehholder in Excel drop down menu..passed
+Then There should be Archived Materials placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a course material filter download after search button in Git.passed
+And There should be all materials placehholder in Git drop down menu........passed
+And There should be Current Materials placehholder in Git drop down menu....passed
+Then There should be Archived Materials placehholder in Git drop down menu..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_02 Verify if user can select  course material from drop down list" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then User should be able to select a "All Materials" placehholder in Proskills drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Proskills drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to select a "All Materials" placehholder in OOD drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in OOD drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in OOD drop down menu.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to select a "All Materials" placehholder in Business Analysis drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Business Analysis drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to select a "All Materials" placehholder in Excel drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Excel drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to select a "All Materials" placehholder in Git drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Git drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Git drop down menu.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_03 Verify if user can Unselect  course material from drop down list" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Proskills drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Proskills drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in OOD drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in OOD drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in OOD drop down menu.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Business Analysis drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Business Analysis drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Excel drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Excel drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Git drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Git drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Git drop down menu.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_04 Verify if Select Bulk Action drop down is displayed" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to  select bulk action drop down list in OOD.......passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to  select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to  select bulk action drop down list in Excel.....passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to  select bulk action drop down list in Git.......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_05 Verify if Download Placeholder is displayed" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Download Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Download Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Download Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Download Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Download Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_06 Verify if Delete Placeholder is displayed" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_07 Verify if Archive Placeholder is displayed" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS1104_08 Verify if Un/Archive Placeholder is displayed" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS_1151_01 Verify GET Request for Course Material" time="0">
+<system-out><![CDATA[
+Given a GET request is made to "/course-material/1".........................passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS_1151_02 Verify POST Request to Create Course Material" time="0">
+<system-out><![CDATA[
+Given a POST request is made to "/regions/" with the following data:........passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS_1151_03 Verify PUT Request to Update Course Material" time="0">
+<system-out><![CDATA[
+Given a PUT request is made to "/regions/edit/6" with the following data:...passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057 As a Course Owner I want to see if All the functions are working fine on course material page after refactoring" name="TC_TMS_1151_04 Verify DELETE Request for Course Material" time="0.001">
+<system-out><![CDATA[
+Given a DELETE request is made to "/regions/delete/5".......................passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

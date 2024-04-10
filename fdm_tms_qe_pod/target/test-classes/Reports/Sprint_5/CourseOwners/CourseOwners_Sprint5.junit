@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="36.995" tests="13" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS User should be logged in to the system" time="6.643">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of CourseOwner............................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_01 Verify if Course Material filter is displayed with dropdown list" time="4.013">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a course material filter download after search button in Proskills.passed
+And There should be all materials placehholder in  Proskills drop down menu.passed
+And There should be Current Materials placehholder in Proskills drop down menu.passed
+Then There should be Archived Materials placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a course material filter download after search button in OOD.passed
+And There should be all materials placehholder in OOD drop down menu........passed
+And There should be Current Materials placehholder in OOD drop down menu....passed
+Then There should be Archived Materials placehholder in OOD drop down menu..passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a course material filter download after search button in Business Analysis.passed
+And There should be all materials placehholder in Business Analysis drop down menu.passed
+And There should be Current Materials placehholder in Business Analysis drop down menu.passed
+Then There should be select Archived Materials placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a course material filter download after search button in Excel.passed
+And There should be all materials placehholder in Excel drop down menu......passed
+And There should be Current Materials placehholder in Excel drop down menu..passed
+Then There should be Archived Materials placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a course material filter download after search button in Git.passed
+And There should be all materials placehholder in Git drop down menu........passed
+And There should be Current Materials placehholder in Git drop down menu....passed
+Then There should be Archived Materials placehholder in Git drop down menu..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_02 Verify if user can select  course material from drop down list" time="4.788">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then User should be able to select a "All Materials" placehholder in Proskills drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Proskills drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to select a "All Materials" placehholder in OOD drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in OOD drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in OOD drop down menu.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to select a "All Materials" placehholder in Business Analysis drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Business Analysis drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to select a "All Materials" placehholder in Excel drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Excel drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to select a "All Materials" placehholder in Git drop down menu.passed
+And User should be able to select the "Current Materials" placehholder in Git drop down menu.passed
+Then User should be able to select an "Archived Materials" placehholder in Git drop down menu.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_03 Verify if user can Unselect  course material from drop down list" time="5.771">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Proskills drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Proskills drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Proskills drop down menu.passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in OOD drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in OOD drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in OOD drop down menu.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Business Analysis drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Business Analysis drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Business Analysis drop down menu.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Excel drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Excel drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Excel drop down menu.passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to UnCheck/UnSelect All Materials placehholder in Git drop down menu.passed
+And User should be able to UnCheck/UnSelect Current Materials placehholder in Git drop down menu.passed
+Then User should be able to UnCheck/UnSelect Archived Materials placehholder in Git drop down menu.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_04 Verify if Select Bulk Action drop down is displayed" time="2.957">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+And User is able to navigate on OOD course material page....................passed
+Then User should be able to  select bulk action drop down list in OOD.......passed
+And User is able to navigate on Business Analysis course material page......passed
+Then User should be able to  select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then User should be able to  select bulk action drop down list in Excel.....passed
+And User is able to navigate on Git course material page....................passed
+Then User should be able to  select bulk action drop down list in Git.......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_05 Verify if Download Placeholder is displayed" time="2.077">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Download Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Download Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Download Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Download Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Download Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_06 Verify if Delete Placeholder is displayed" time="2.072">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Delete Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_07 Verify if Archive Placeholder is displayed" time="2.297">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a Archive Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS1104_08 Verify if Un/Archive Placeholder is displayed" time="2.696">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner...................................passed
+And User is able to navigate on Proskills course material page..............passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Proskills.passed
+And User is able to navigate on OOD course material page....................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in OOD.passed
+And User is able to navigate on Business Analysis course material page......passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Business Analysis.passed
+And User is able to navigate on Excel course material page..................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Excel.passed
+And User is able to navigate on Git course material page....................passed
+Then There should be a UnArchive Placeholder in select bulk action drop down list in Git.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_1057/" as "TMS_1104_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS_1151_01 Verify GET Request for Course Material" time="1.813">
+<system-out><![CDATA[
+Given a GET request is made to "/course-material/1".........................passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS_1151_02 Verify POST Request to Create Course Material" time="0.052">
+<system-out><![CDATA[
+Given a POST request is made to "/regions/" with the following data:........passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS_1151_03 Verify PUT Request to Update Course Material" time="0.102">
+<system-out><![CDATA[
+Given a PUT request is made to "/regions/edit/6" with the following data:...passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1057_As A Course Owner" name="TC_TMS_1151_04 Verify DELETE Request for Course Material" time="0.086">
+<system-out><![CDATA[
+Given a DELETE request is made to "/regions/delete/5".......................passed
+Then the response status  should  200.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

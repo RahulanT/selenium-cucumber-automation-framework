@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="1.548" tests="37" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1378 Test that Admin should be able to see page title on Create Cohort page" time="0.034">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin confirm that "Create Cohort" is displayed as a title of the page.passed
+Then "Create Cohort" should be displayed as a page title....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1378".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1379 Test that Admin should be able to see hint text for Region, Country, City, Pathway and start Date" time="0.006">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin verify that "Select Region" is displayed as hint text for Region dropdown list.passed
+Then "Select Region" should be displayed as hint text for Region dropdown list.passed
+When Admin verify that "Select Country" is displayed as hint text for Country dropdown list.passed
+Then "Select Country" should be displayed as hint text for Country dropdown list.passed
+When As an Admin verify that "Select City" is displayed as hint text for City dropdown list.passed
+Then "Select City" should be displayed as hint text for City dropdown list..passed
+When As an Admin verify that "Select Pathway" is displayed as hint text for Pathway dropdown list.passed
+Then "Select Pathway" should be displayed as hint text for Pathway dropdown list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1379".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1380 Test that Admin should be able to select different Regions and Countries on Create Cohort page" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "APAC" option from Region dropdown list...................passed
+Then "APAC" option should be selected from Region dropdown list.............passed
+When Admin select "Australia" option from Country dropdown list.............passed
+Then "Australia" option should be selected from Country dropdown list.......passed
+When Admin select "China" option from Country dropdown list.................passed
+Then "China" option should be selected from Country dropdown list...........passed
+When Admin select "Singapore" option from Country dropdown list.............passed
+Then "Singapore" option should be selected from Country dropdown list.......passed
+When Admin select "EMEA" option from Region dropdown list...................passed
+Then "EMEA" option should be selected from Region dropdown list.............passed
+When Admin select "Germany" option from Country dropdown list...............passed
+Then "Germany" option should be selected from Country dropdown list.........passed
+When Admin select "Poland" option from Country dropdown list................passed
+Then "Poland" option should be selected from Country dropdown list..........passed
+When Admin select "UK" option from Country dropdown list....................passed
+Then "UK" option should be selected from Country dropdown list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1380".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1381 Test that Admin should be able to select different Cities" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "New York, NY" option from City dropdown list.............passed
+Then "New York, NY" option should be selected from City dropdown list.......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1381".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1382 Test that Admin should be able to select different Pathways" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin select "Cloud Computing" option from Pathway dropdown list.......passed
+Then "Cloud Computing" option should be selected from Pathway dropdown list.passed
+When Admin select "BAPM" option from Pathway dropdown list..................passed
+Then "BAPM" option should be selected from Pathway dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1382".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1383 Test that Admin should be able to select Date from Calender view for Start Date input field" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1383".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1384 Test that Admin should be able to see Create Cohort button as disabled when all mandatory fields not filled" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin verify that Region is not selected...............................passed
+Then Region should not be selected..........................................passed
+When Admin verify that Country is not selected..............................passed
+Then Country should not be selected.........................................passed
+When Admin verify that City is not selected.................................passed
+Then City should not be selected............................................passed
+When Admin verify that Pathway is not selected..............................passed
+Then Pathway should not be selected.........................................passed
+When Admin verify that Start Date input field should be empty...............passed
+Then Start Date input field should be empty.................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1384".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1466 Test that Admin should be able to see Cohort Code when all mandatory fields are filled" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin select "Cloud Computing" option from Pathway dropdown list.......passed
+Then "Cloud Computing" option should be selected from Pathway dropdown list.passed
+When Admin select "BAPM" option from Pathway dropdown list..................passed
+Then "BAPM" option should be selected from Pathway dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1466".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1467 Test that Admin should be able to update Cohort Code by clicking on Edit Button" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................passed
+When Admin click on Edit button.............................................passed
+Then Cohort Code field should be editable...................................passed
+When Admin edit Cohort Code to "TO-23-TDJDE-01".............................passed
+Then "TO-23-TDJDE-01" should be displayed as Cohort Code....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1467".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1468 Test that Admin should be able to see pop-up with text &quot;Cohort Created&quot; when click on Create Cohort button" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................passed
+When Admin click on Create Cohort button....................................passed
+Then Pop-up window should be displayed with "Cohort Created" title text.....passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1468".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1469 Test that Admin should be able to see pop-up with text &quot;Cohort Created&quot; when click on Create Cohort button" time="0.005">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................passed
+When Admin click on Create Cohort button....................................passed
+Then Pop-up window should be displayed with "Cohort Created" title text.....passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code in the pop-up.passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code in the pop-up........passed
+When Admin verify that "NA/ Canada" should be displayed as Region in the pop-up.passed
+Then "NA/ Canada" should be displayed as Region in the pop-up...............passed
+When Admin verify that "Toronto" should be displayed as City in the pop-up..passed
+Then "Toronto" should be displayed as City in the pop-up....................passed
+When Admin verify that "Java Development" should be displayed as Pathway in the pop-up.passed
+Then "Java Development" should be displayed as Pathway in the pop-up........passed
+When Admin verify that Start Date should be displayed as "10/16/2023" in the pop-up.passed
+Then Start Date should be displayed as "10/16/2023" in the pop-up...........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1469".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1470 Test that Admin should be able to close pop-up window when click on (x) close button" time="0.004">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................passed
+When Admin click on Create Cohort button....................................passed
+Then Pop-up window should be displayed with "Cohort Created" title text.....passed
+When Admin click on (x) close button........................................passed
+Then Pop-up window should be closed.........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1470".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1471 Test that Admin should be able to see Ok button enabled in pop-up window" time="0.003">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........passed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....passed
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................passed
+When Admin click on Create Cohort button....................................passed
+Then Pop-up window should be displayed with "Cohort Created" title text.....passed
+When Admin verify Ok button is displayed as enabled in pop-up...............passed
+Then Ok button should be displayed as enabled in pop-up.....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1471".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1410 Test that Admin can see by cohort option" time="0.002">
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................passed
+Then it should clicked......................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1410".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1411 Test that Admin can see list of cohort codes after selecting cohort view" time="0">
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................passed
+Then it should clicked......................................................passed
+Then check that cohort codes are available..................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1411".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1412 Test that Admin can see column label as &quot;By cohort&quot;" time="0">
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................passed
+Then it should clicked......................................................passed
+Then check that label name "By cohort" is there.............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1412".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1413 Test that Admin can select one view at a time, Trainer or cohort" time="0">
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I switch to trainer view...............................................passed
+And try selecting both view.................................................passed
+Then it should not possible.................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1413".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1414 Test that Get request /cohorts should return status code 200 if database has all cohorts" time="0">
+<system-out><![CDATA[
+When I sent a Get request to "/cohorts".....................................passed
+Then Status code 200 should be return with data in postman..................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1276 Academy Admin Add Trainer Enhancement" name="TMS_1276 As an Academy Admin, the user should be able to add a trainer" time="0">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And User Clicks on Add Trainer..............................................passed
+And User should be able taken to Add Trainer Page...........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1276/" as "TMS_1276".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1277 As an Academy Admin I should be able to add the trainer successfully" name="TMS_1277 As an Academy Admin, the user should be able to add a trainer" time="0.001">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And User Clicks on Add Trainer..............................................passed
+And User fills in details of the trainer....................................passed
+And User clicks on Submit button............................................passed
+And User should be able add trainer and get a message that trainer was added successfully.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1277/" as "TMS_1277".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1278 As an Academy Admin I should be able to add the trainer only if all fields on the add trainer form are filled" name="TMS_1278 As an Academy Admin, the user should be able to add a trainer only if all the fields of the form are filled" time="0.002">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And User Clicks on Add Trainer..............................................passed
+And User does not fill in all details for the trainer.......................passed
+And User clicks on Submit button............................................passed
+And User should NOT be able add trainer.....................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1278/" as "TMS_1278".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1279 As an Academy Admin I should be able go back to add trainer page" name="TMS_1279 As an Academy Admin, the user should be able go back on add trainer page" time="0.002">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And User Clicks on Add Trainer..............................................passed
+And User clicks back without submitting.....................................passed
+And User should be able to go back to add trainer page......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1279/" as "TMS_1279".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1308 As an Admin using the Trainee Management System, I want the ability to select colors from preset lists to visually distinguish between business and technical pathways." name="TMS_1490 Test that Admin should be able select different Focus options" time="0.002">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "Business" option from Focus dropdown list................passed
+Then "Business" option should be selected from Focus dropdown list..........passed
+When Admin select "Technical" option from Focus dropdown list...............passed
+Then "Technical" option should be selected from Focus dropdown list.........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1308/" as "TMS_1490".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1308 As an Admin using the Trainee Management System, I want the ability to select colors from preset lists to visually distinguish between business and technical pathways." name="TMS_1491 Test that Admin should be able to select different color for diferent Focus options" time="0">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "Business" option from Focus dropdown list................passed
+Then "Business" option should be selected from Focus dropdown list..........passed
+When Admin select "#0000FF" color from Color dropdown list..................passed
+Then "#0000FF" color should be selected from Color dropdown list............passed
+When Admin select "Technical" option from Focus dropdown list...............passed
+Then "Technical" option should be selected from Focus dropdown list.........passed
+When Admin select "#FFFF00" color from Color dropdown list..................passed
+Then "#FFFF00" color should be selected from Color dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1308/" as "TMS_1491".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_883 The Academy Admin is able to view the Academy Directory page with all the Trainer Profile Cards" name="TMS_1614 User should be able to see all the Trainer Profile Cards" time="0">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And Clicks on the Trainer from the Academy Directory dropdown...............passed
+And Check all the trainer profile cards for whether trainers are active using APACHE POI.passed
+And User should be able to see all the Trainer Profile Cards................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_883/" as "TMS_1614".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS User should be logged in to the system" time="0.003">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password...........................................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1390 Test that Exact matches (non-case sensitive) alphabetically Ascending order of course name should display when user hit enter" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Select region should be displayed in filter bar........................passed
+And All the courses in the course tiles should be in ascending order........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1390".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1391 Test that all the course filters are left aligned" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+And Select region should be displayed in left of filter bar.................passed
+Then Select Country should be right after Region Filter.....................passed
+And Select Pathways should be right after Country Filter....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1391".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1392 Test that background colour of function bar is Grey" time="0.001">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+And Background colour of filter bar should be gray..........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1392".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1393 Test that Search bar is right aligned" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Search bar is displayed in the filter bar..............................passed
+And Search bar is right aligned after all the filters.......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1393".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1394 Test that Select Country drop down list is avaialble when user Selects Country from Row" time="0">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Search bar is displayed in the filter bar..............................passed
+And Search bar is right aligned after all the filters.......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1394".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TC_TMS User should be logged in to the system" time="0.003">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of trainer................................passed
+And user clicks the Login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TMS_1475 Test that Exact matches (non-case sensitive) alphabetically Ascending order of course name should display when user hit enter" time="0">
+<system-out><![CDATA[
+Given The user is signed in as a trainer and has navigated to the All Courses page.passed
+When User is on search button and type three words to search a course name..passed
+When User hit enter after typing three words................................passed
+Then user can see exact course name is displayed  in Ascending order........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_878/" as "TMS_1475".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TMS_1477 Test that Exact matches (non-case sensitive) alphabetically Ascending order of course name should display when user hit enter" time="0">
+<system-out><![CDATA[
+Given The user is signed in as a trainer and has navigated to the All Courses page.passed
+When User is on search button and type partial three words to search a course name.passed
+When User hit enter after typing three words................................passed
+Then user can see partial course name is displayed in Ascending order as first three characters are matched.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_878/" as "TMS_1477".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TMS_1476 Test that Exact matches (non-case sensitive) alphabetically Ascending order of course name should display when user hit enter" time="0">
+<system-out><![CDATA[
+Given The user is signed in as a trainer and has navigated to the All Courses page.passed
+When User is on search button and type two words to search a course name....passed
+When User hit enter after typing two words..................................passed
+Then There should be an error message saying to enter three characters in the search bar.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_878/" as "TMS_1476".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TMS_1478 Test that the courses on All Courses page will display with the default filter (courses specific to the region of the trainer) turned on" time="0">
+<system-out><![CDATA[
+Given The user is signed in as a trainer and has navigated to the All Courses page.passed
+When User selects the cancel search option  by clicking the “X” icon........passed
+When User click on X icon and all courses page will display with default filter.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_878/" as "TMS_1478".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TMS_1479 Test that when trainer type in a search query in the search box and hit enter and there are no partial or exact matches Then the All Courses page will show “No Courses Found”" time="0.001">
+<system-out><![CDATA[
+Given The user is signed in as a trainer and has navigated to the All Courses page.passed
+When User is on search button and type sone characters to search a course name.passed
+When User hit enter after typing the characters.............................passed
+Then There should be an "No Courses Found" message if course is not available in course tiles.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_878/" as "TMS_1479".passed
+]]></system-out>
+</testcase>
+</testsuite>

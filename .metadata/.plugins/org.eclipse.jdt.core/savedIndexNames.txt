@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\rwavb\Documents\rwavBeanStalk~workspace\jenkins~practice\selenium-cucumber-automation-framework\.metadata\.plugins\org.eclipse.jdt.core
+1056154304.index
+1865797976.index
+2357728348.index

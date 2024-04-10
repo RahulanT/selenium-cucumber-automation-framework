@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="143.912" tests="34" skipped="0" failures="21" errors="0">
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_01 Test that Admin can use filter buttons to display trainers even if they do not have courses scheduled for the week." time="12.667">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[9]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[9]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.FilterFunctionalityPage.clickAllFilter(FilterFunctionalityPage.java:57)
+	at com.fdmgroup.admins.stepdefinitions.FilterFunctionality_stepdefinitions.i_click_on_region_pathway_and_course(FilterFunctionality_stepdefinitions.java:33)
+	at ✽.I click on region, pathway and course(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_5/Admins/TMS_661_FilterFunctionality.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on region, pathway and course..................................failed
+Then Filter options should be selected......................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_01".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_02 Test that Admin can click on the Region button on the Calendar screen to expand a multi-select list to filter the Regions of trainers." time="2.93">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[9]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[9]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.FilterFunctionalityPage.clickRegion(FilterFunctionalityPage.java:45)
+	at com.fdmgroup.admins.stepdefinitions.FilterFunctionality_stepdefinitions.i_click_on_the_region_filter_button_on_the_top_left_of_the_screen(FilterFunctionality_stepdefinitions.java:43)
+	at ✽.I click on the Region filter button on the top left of the screen.(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_5/Admins/TMS_661_FilterFunctionality.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Region filter button on the top left of the screen......failed
+Then Region filter button clicked...........................................skipped
+And Verify 3 options are available to be selected in the Region multi-select list..skipped
+Then 3 options are available to be selected in the Region multi-select list..skipped
+And Select "North America" for the Region filter............................skipped
+Then North America selected for Region filter...............................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_02".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_03 Test that Admin can click on the Pathway button on the Calendar screen to expand a multi-select list to filter the Streams that trainers are teaching." time="2.896">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='button btn'])[2]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='button btn'])[2]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.FilterFunctionalityPage.clickPathway(FilterFunctionalityPage.java:49)
+	at com.fdmgroup.admins.stepdefinitions.FilterFunctionality_stepdefinitions.i_click_on_the_pathway_filter_button_on_the_top_left_of_the_screen(FilterFunctionality_stepdefinitions.java:74)
+	at ✽.I click on the Pathway filter button on the top left of the screen.(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_5/Admins/TMS_661_FilterFunctionality.feature:26)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Pathway filter button on the top left of the screen.....failed
+Then Pathway filter button should be clicked................................skipped
+And Verify the 3 options are available to be selected in the Pathway multi-select list..skipped
+Then Java Development, Cloud Computing and BAPM options are available to be selected in the Pathway multi-select list..skipped
+And Select "Java" for the Pathway filter....................................skipped
+Then Verify calendar filtered only Java pathway trainers for view...........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_03".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_04 Test that Admin can click on the Course button on the Calendar screen to expand a multi-select list to filter the Courses that trainers are teaching." time="2.655">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='button btn'])[3]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='button btn'])[3]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.FilterFunctionalityPage.clickCourse(FilterFunctionalityPage.java:53)
+	at com.fdmgroup.admins.stepdefinitions.FilterFunctionality_stepdefinitions.i_click_on_the_course_filter_button_on_the_top_left_of_the_screen(FilterFunctionality_stepdefinitions.java:107)
+	at ✽.I click on the Course filter button on the top left of the screen.(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_5/Admins/TMS_661_FilterFunctionality.feature:38)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Course filter button on the top left of the screen......failed
+Then it should be clicked...................................................skipped
+And select "AEM" for the Course filter......................................skipped
+Then verify only AEM course trainers are shown on calendar..................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_04".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_05 Test that Admin can select multiple filters at once to filter trainers." time="2.782">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[9]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[9]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[9]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.FilterFunctionalityPage.clickRegion(FilterFunctionalityPage.java:45)
+	at com.fdmgroup.admins.stepdefinitions.FilterFunctionality_stepdefinitions.i_click_on_the_region_filter_button_on_the_top_left_of_the_screen(FilterFunctionality_stepdefinitions.java:43)
+	at ✽.I click on the Region filter button on the top left of the screen.(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_5/Admins/TMS_661_FilterFunctionality.feature:47)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected calendar page..........................................passed
+When I click on the Region filter button on the top left of the screen......failed
+Then it should be clicked...................................................skipped
+And select "North America" for the Region filter............................skipped
+Then Calendar filtered only North American trainers for view................skipped
+And click on the Pathway filter button on the top left of the screen........skipped
+And select "Java" for the Pathway filter....................................skipped
+Then Calendar filtered only Java pathway trainers in North America for view..skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/Admins/TMS_699/" as "TMS_988_05".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_06 Test that Get request to /trainer/trainers should return a list of trainers" time="2.255">
+<system-out><![CDATA[
+When I send a Get request to "/trainer/trainers" using Postman..............passed
+Then I should see the name of trainers......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_661 As an Admin, I want to be able to use the filter option in the calendar page so that I can view the calendar based on course," name="TMS_988_07 Test that GET request to /trainer/{id} should return null if trainer is not in database" time="0.133">
+<system-out><![CDATA[
+When send a Get request to "/trainer/50"....................................passed
+Then it should return <null>................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1378 Test that Admin should be able to see page title on Create Cohort page" time="3.128">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at com.fdmgroup.admins.pages.CreateCoursePage.isPageTitleDisplayed(CreateCoursePage.java:101)
+	at com.fdmgroup.admins.stepdefinitions.CreateCourse_stepdefinitions.admin_confirm_that_is_displayed_as_a_title_of_the_page(CreateCourse_stepdefinitions.java:28)
+	at ✽.Admin confirm that "Create Cohort" is displayed as a title of the page(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin confirm that "Create Cohort" is displayed as a title of the page.failed
+Then "Create Cohort" should be displayed as a page title....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1378".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1379 Test that Admin should be able to see hint text for Region, Country, City, Pathway and start Date" time="1.986">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin verify that "Select Region" is displayed as hint text for Region dropdown list.passed
+Then "Select Region" should be displayed as hint text for Region dropdown list.passed
+When Admin verify that "Select Country" is displayed as hint text for Country dropdown list.passed
+Then "Select Country" should be displayed as hint text for Country dropdown list.passed
+When As an Admin verify that "Select City" is displayed as hint text for City dropdown list.passed
+Then "Select City" should be displayed as hint text for City dropdown list..passed
+When As an Admin verify that "Select Pathway" is displayed as hint text for Pathway dropdown list.passed
+Then "Select Pathway" should be displayed as hint text for Pathway dropdown list.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1379".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1380 Test that Admin should be able to select different Regions and Countries on Create Cohort page" time="9.256">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "APAC" option from Region dropdown list...................passed
+Then "APAC" option should be selected from Region dropdown list.............passed
+When Admin select "Australia" option from Country dropdown list.............passed
+Then "Australia" option should be selected from Country dropdown list.......passed
+When Admin select "China" option from Country dropdown list.................passed
+Then "China" option should be selected from Country dropdown list...........passed
+When Admin select "Singapore" option from Country dropdown list.............passed
+Then "Singapore" option should be selected from Country dropdown list.......passed
+When Admin select "EMEA" option from Region dropdown list...................passed
+Then "EMEA" option should be selected from Region dropdown list.............passed
+When Admin select "Germany" option from Country dropdown list...............passed
+Then "Germany" option should be selected from Country dropdown list.........passed
+When Admin select "Poland" option from Country dropdown list................passed
+Then "Poland" option should be selected from Country dropdown list..........passed
+When Admin select "UK" option from Country dropdown list....................passed
+Then "UK" option should be selected from Country dropdown list..............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1380".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1381 Test that Admin should be able to select different Cities" time="6.543">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin click on Region dropdown list....................................passed
+Then Region dropdown list should be displayed...............................passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "United States" option from Country dropdown list.........passed
+Then "United States" option should be selected from Country dropdown list...passed
+When Admin select "New York, NY" option from City dropdown list.............passed
+Then "New York, NY" option should be selected from City dropdown list.......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1381".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1382 Test that Admin should be able to select different Pathways" time="7.444">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin select "Cloud Computing" option from Pathway dropdown list.......passed
+Then "Cloud Computing" option should be selected from Pathway dropdown list.passed
+When Admin select "BAPM" option from Pathway dropdown list..................passed
+Then "BAPM" option should be selected from Pathway dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1382".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1383 Test that Admin should be able to select Date from Calender view for Start Date input field" time="5.479">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:91)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1383".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1384 Test that Admin should be able to see Create Cohort button as disabled when all mandatory fields not filled" time="2.784">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin verify that Region is not selected...............................passed
+Then Region should not be selected..........................................passed
+When Admin verify that Country is not selected..............................passed
+Then Country should not be selected.........................................passed
+When Admin verify that City is not selected.................................passed
+Then City should not be selected............................................passed
+When Admin verify that Pathway is not selected..............................passed
+Then Pathway should not be selected.........................................passed
+When Admin verify that Start Date input field should be empty...............passed
+Then Start Date input field should be empty.................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1384".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1466 Test that Admin should be able to see Cohort Code when all mandatory fields are filled" time="3.68">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin select "Cloud Computing" option from Pathway dropdown list.......passed
+Then "Cloud Computing" option should be selected from Pathway dropdown list.passed
+When Admin select "BAPM" option from Pathway dropdown list..................passed
+Then "BAPM" option should be selected from Pathway dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1466".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1467 Test that Admin should be able to update Cohort Code by clicking on Edit Button" time="6.252">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:136)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................skipped
+When Admin click on Edit button.............................................skipped
+Then Cohort Code field should be editable...................................skipped
+When Admin edit Cohort Code to "TO-23-TDJDE-01".............................skipped
+Then "TO-23-TDJDE-01" should be displayed as Cohort Code....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1467".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1468 Test that Admin should be able to see pop-up with text &quot;Cohort Created&quot; when click on Create Cohort button" time="3.869">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:157)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................skipped
+When Admin click on Create Cohort button....................................skipped
+Then Pop-up window should be displayed with "Cohort Created" title text.....skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1468".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1469 Test that Admin should be able to see pop-up with text &quot;Cohort Created&quot; when click on Create Cohort button" time="2.538">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:176)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................skipped
+When Admin click on Create Cohort button....................................skipped
+Then Pop-up window should be displayed with "Cohort Created" title text.....skipped
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code in the pop-up.skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code in the pop-up........skipped
+When Admin verify that "NA/ Canada" should be displayed as Region in the pop-up.skipped
+Then "NA/ Canada" should be displayed as Region in the pop-up...............skipped
+When Admin verify that "Toronto" should be displayed as City in the pop-up..skipped
+Then "Toronto" should be displayed as City in the pop-up....................skipped
+When Admin verify that "Java Development" should be displayed as Pathway in the pop-up.skipped
+Then "Java Development" should be displayed as Pathway in the pop-up........skipped
+When Admin verify that Start Date should be displayed as "10/16/2023" in the pop-up.skipped
+Then Start Date should be displayed as "10/16/2023" in the pop-up...........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1469".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1470 Test that Admin should be able to close pop-up window when click on (x) close button" time="2.735">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:205)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................skipped
+When Admin click on Create Cohort button....................................skipped
+Then Pop-up window should be displayed with "Cohort Created" title text.....skipped
+When Admin click on (x) close button........................................skipped
+Then Pop-up window should be closed.........................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1470".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1023 As an admin, I want to be able to schedule a pathway by selecting a starting date so that I can effectively plan and create class." name="TMS_1471 Test that Admin should be able to see Ok button enabled in pop-up window" time="3.334">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[0003-12-10]&gt; but was:&lt;[2023-10-16]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[0003-12-10]> but was:<[2023-10-16]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CreateCohort_stepdefinitions.date_should_be_displayed_in_start_date_input_field(CreateCohort_stepdefinitions.java:70)
+	at ✽."2023-10-16" date should be displayed in Start Date input field(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1023_CreateCohort.feature:226)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Cohort page......passed
+When Admin select "NA" option from Region dropdown list.....................passed
+Then "NA" option should be selected from Region dropdown list...............passed
+When Admin select "Canada" option from Country dropdown list................passed
+Then "Canada" option should be selected from Country dropdown list..........passed
+When Admin select "Toronto, ON" option from City dropdown list..............passed
+Then "Toronto, ON" option should be selected from City dropdown list........passed
+When Admin select "Java Development" option from Pathway dropdown list......passed
+Then "Java Development" option should be selected from Pathway dropdown list.passed
+When Admin enter "2023-10-16" date into Start Date input field..............passed
+Then "2023-10-16" date should be displayed in Start Date input field........failed
+When Admin verify that "TO-23-JDE-01" should be displayed as Cohort Code....skipped
+Then "TO-23-JDE-01" should be displayed as Cohort Code......................skipped
+When Admin click on Create Cohort button....................................skipped
+Then Pop-up window should be displayed with "Cohort Created" title text.....skipped
+When Admin verify Ok button is displayed as enabled in pop-up...............skipped
+Then Ok button should be displayed as enabled in pop-up.....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1023/" as "TMS_1471".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1410 Test that Admin can see by cohort option" time="3.693">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[5]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[5]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.CalendarCohortPage.clickDropDownMenu(CalendarCohortPage.java:28)
+	at com.fdmgroup.admins.stepdefinitions.ByCohortView_stepdefinitions.i_click_on_cohort_view(ByCohortView_stepdefinitions.java:27)
+	at ✽.I click on cohort view(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1247_ByCohortView.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................failed
+Then it should clicked......................................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1410".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1411 Test that Admin can see list of cohort codes after selecting cohort view" time="3.093">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[5]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[5]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.CalendarCohortPage.clickDropDownMenu(CalendarCohortPage.java:28)
+	at com.fdmgroup.admins.stepdefinitions.ByCohortView_stepdefinitions.i_click_on_cohort_view(ByCohortView_stepdefinitions.java:27)
+	at ✽.I click on cohort view(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1247_ByCohortView.feature:16)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................failed
+Then it should clicked......................................................skipped
+Then check that cohort codes are available..................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1411".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1412 Test that Admin can see column label as &quot;By cohort&quot;" time="2.852">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='bi bi-chevron-down'])[5]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='bi bi-chevron-down'])[5]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='bi bi-chevron-down'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.admins.pages.CalendarCohortPage.clickDropDownMenu(CalendarCohortPage.java:28)
+	at com.fdmgroup.admins.stepdefinitions.ByCohortView_stepdefinitions.i_click_on_cohort_view(ByCohortView_stepdefinitions.java:27)
+	at ✽.I click on cohort view(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1247_ByCohortView.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I click on cohort view.................................................failed
+Then it should clicked......................................................skipped
+Then check that label name "By cohort" is there.............................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1412".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1413 Test that Admin can select one view at a time, Trainer or cohort" time="2.499">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='button btn'])[5]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='button btn'])[5]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=(//*[@class='button btn'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at com.fdmgroup.admins.pages.CalendarCohortPage.getTrainerText(CalendarCohortPage.java:48)
+	at com.fdmgroup.admins.stepdefinitions.ByCohortView_stepdefinitions.i_switch_to_trainer_view(ByCohortView_stepdefinitions.java:54)
+	at ✽.I switch to trainer view(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/Admins/TMS_1247_ByCohortView.feature:33)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page......................................passed
+When I switch to trainer view...............................................failed
+And try selecting both view.................................................skipped
+Then it should not possible.................................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1247/" as "TMS_1413".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1247 As an Admin, I want to have the ability to choose to view courses by cohort so that I can" name="TMS_1414 Test that Get request /cohorts should return status code 200 if database has all cohorts" time="1.802">
+<system-out><![CDATA[
+When I sent a Get request to "/cohorts".....................................passed
+Then Status code 200 should be return with data in postman..................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1308 As an Admin using the Trainee Management System, I want the ability to select colors from preset lists to visually distinguish between business and technical pathways." name="TMS_1490 Test that Admin should be able select different Focus options" time="5.819">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "Business" option from Focus dropdown list................passed
+Then "Business" option should be selected from Focus dropdown list..........passed
+When Admin select "Technical" option from Focus dropdown list...............passed
+Then "Technical" option should be selected from Focus dropdown list.........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1308/" as "TMS_1490".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1308 As an Admin using the Trainee Management System, I want the ability to select colors from preset lists to visually distinguish between business and technical pathways." name="TMS_1491 Test that Admin should be able to select different color for diferent Focus options" time="12.959">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Pathway page.....passed
+When Admin select "Business" option from Focus dropdown list................passed
+Then "Business" option should be selected from Focus dropdown list..........passed
+When Admin select "#0000FF" color from Color dropdown list..................passed
+Then "#0000FF" color should be selected from Color dropdown list............passed
+When Admin select "Technical" option from Focus dropdown list...............passed
+Then "Technical" option should be selected from Focus dropdown list.........passed
+When Admin select "#FFFF00" color from Color dropdown list..................passed
+Then "#FFFF00" color should be selected from Color dropdown list............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_1308/" as "TMS_1491".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS User should be logged in to the system" time="5.68">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password...........................................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1390 Test that Exact matches (non-case sensitive) alphabetically Ascending order of course name should display when user hit enter" time="3.077">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()='Select Region']&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Region']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Select Region']"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Region']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseCataloguePage.getRegions(CourseCataloguePage.java:118)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseCatalogue_stepdefinitions.select_region_should_be_displayed_in_filter_bar(CourseCatalogue_stepdefinitions.java:205)
+	at ✽.Select region should be displayed in filter bar(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/CourseOwners/TMS_877_CourseCatalogue.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Select region should be displayed in filter bar........................failed
+And All the courses in the course tiles should be in ascending order........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1390".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1391 Test that all the course filters are left aligned" time="2.911">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()='Select Region']&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Region']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Select Region']"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Region']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseCataloguePage.isSelectRegionFilterDisplayed(CourseCataloguePage.java:87)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseCatalogue_stepdefinitions.select_region_should_be_displayed_in_left_of_filter_bar(CourseCatalogue_stepdefinitions.java:236)
+	at ✽.Select region should be displayed in left of filter bar(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/CourseOwners/TMS_877_CourseCatalogue.feature:24)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+And Select region should be displayed in left of filter bar.................failed
+Then Select Country should be right after Region Filter.....................skipped
+And Select Pathways should be right after Country Filter....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1391".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1392 Test that background colour of function bar is Grey" time="0.956">
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+And Background colour of filter bar should be gray..........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1392".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1393 Test that Search bar is right aligned" time="2.522">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()='Select Pathway']&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Pathway']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Select Pathway']"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Pathway']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getLocation(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseCataloguePage.isSearchBarRightAlignedAfterFilters(CourseCataloguePage.java:113)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseCatalogue_stepdefinitions.search_bar_is_right_aligned_after_all_the_filters(CourseCatalogue_stepdefinitions.java:266)
+	at ✽.Search bar is right aligned after all the filters(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/CourseOwners/TMS_877_CourseCatalogue.feature:43)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Search bar is displayed in the filter bar..............................passed
+And Search bar is right aligned after all the filters.......................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1393".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_877 As a Trainer I want to view all course titles on one page so that I can easily access any course that I want to review" name="TC_TMS1394 Test that Select Country drop down list is avaialble when user Selects Country from Row" time="2.81">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//option[text()='Select Pathway']&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Pathway']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option[text()='Select Pathway']"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//option[text()='Select Pathway']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getLocation(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseCataloguePage.isSearchBarRightAlignedAfterFilters(CourseCataloguePage.java:113)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseCatalogue_stepdefinitions.search_bar_is_right_aligned_after_all_the_filters(CourseCatalogue_stepdefinitions.java:266)
+	at ✽.Search bar is right aligned after all the filters(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/CourseOwners/TMS_877_CourseCatalogue.feature:52)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Trainer........................................passed
+And User is able to navigate on course catalogue page.......................passed
+Then Search bar is displayed in the filter bar..............................passed
+And Search bar is right aligned after all the filters.......................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/CourseOwners/TMS_877/" as "TMS_1394".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_878 As a trainer, I want to search for courses on the All Courses page by course name so that I can find the course I’m looking for." name="TC_TMS User should be logged in to the system" time="2.686">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id = 'theUsername']&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'theUsername']"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [626d974951206ccbd0d1889b92d9d4fe, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\SOFIA\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51850/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 626d974951206ccbd0d1889b92d9d4fe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.sendKeys(Unknown Source)
+	at com.fdmgroup.academyusers.pages.LoginPage.setUsername(LoginPage.java:29)
+	at com.fdmgroup.courseowners.stepdefinitions.SearchBar_stepdefinitions.enters_valid_id_and_password_of_trainer(SearchBar_stepdefinitions.java:21)
+	at ✽.Enters valid id and password of trainer(file:///D:/fdm_tms_qe_pod/src/test/resources/Features/Sprint_6/CourseOwners/TMS_878_CourseCatalogue.feature:7)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of trainer................................failed
+And user clicks the Login button............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

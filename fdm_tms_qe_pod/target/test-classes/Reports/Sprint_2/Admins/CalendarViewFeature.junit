@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="47.133" tests="7" skipped="0" failures="0" errors="0">
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_01 Test that Admin can select filter button on the left top corner." time="11.388">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin clicks on filter button on the right top corner..................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_02 Test that Admin can select specific week by navigating through the left navigator and right navigator button through a button on top right corner." time="6.691">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin clicks on left navigator button on the center corner button......passed
+Then Admin clicks on right navigator button on the center corner button.....passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_03 Test that Admin can intially see  one weekly calendar" time="5.85">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin is on calendar page..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_04 Test that Admin can see the calendar that is aligned to current date." time="5.359">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin is on calendar page..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_05 Test that Admin can see list of Trainers name in the first Column." time="6.619">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin is on calendar page..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_06 Test that Calendar has AM and PM section for each day in the date." time="5.578">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin is on calendar page..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_07 Test that Calendar has 1 week calendar button in the right top corner." time="5.325">
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................passed
+Then Admin clicks on One week button on right top corner....................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_07".passed
+]]></system-out>
+</testcase>
+</testsuite>

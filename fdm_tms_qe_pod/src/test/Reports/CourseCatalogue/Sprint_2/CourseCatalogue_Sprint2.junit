@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.397" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_01 User should be logged in to the system" time="10.484">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password...........................................passed
+And user clicks the login button............................................passed
+Then SysAdmin should navigate to the Home page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_02 Test that course catalogue tab is displayed on the  TMS navigation bar" time="0.157">
+<system-out><![CDATA[
+Given User navigates to the BAPM Stream using course catalogue button in the navigation bar.passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_03 Test that Eight course tiles are displayed under BAPM Stream" time="0.284">
+<system-out><![CDATA[
+Given 8 Tiles of courses are displayed......................................passed
+And User verify if all the course names are correct.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_04 Test that  Proskills Course Material Button is displayed" time="0.812">
+<system-out><![CDATA[
+Given Go to Material Button is displayed....................................passed
+And User clicks the button..................................................passed
+And User redirected to course material page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material from Course Catalogue" name="TC_TMS304_05 Test that  Background colour is changing" time="0.139">
+<system-out><![CDATA[
+Given Data Table is displayed...............................................passed
+And User selected a row.....................................................passed
+And User see the background colour is changed...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

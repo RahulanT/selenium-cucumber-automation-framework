@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="101.283" tests="10" skipped="0" failures="0" errors="0">
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_01 Verify that Enter FDM Email Address input field is available." time="25.937">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM Email address......................................passed
+Then it should be clickable and viewable....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_02 Verify that user can enter text in ‘Enter FDM Email Address’" time="8.221">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM Email address......................................passed
+Then it should accept text..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_03 Verify that Confirm FDM Email Address input field is available" time="7.073">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Confirm FDM Email address....................................passed
+Then it should be clickable and viewable....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_04 Verify that user can enter text in ‘Confirm FDM Email Address’" time="7.834">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Confirm FDM Email address....................................passed
+Then it should accept text..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_05 Verify that ‘Request new password’ button is clickable" time="6.887">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on request new password button..................................passed
+Then it should be clickable.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_06 Verify that clicking on ‘Back to Login’ will redirect to login page" time="7.825">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on back to login button.........................................passed
+Then it should redirect to login page.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_07 Verify that user is receiving ‘Please enter a valid FDM email address’ error if its not ending with @fdmgroup.com" time="11.853">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM email address......................................passed
+And I write the email address that's not end with @fdmgroup.com.............passed
+Then it should give the error...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_08 Verify that email passed in both the fields of enter fdm email and confirm email matches with each other" time="7.962">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I enter FDM email address...............................................passed
+And I enter Confirm FDM email address.......................................passed
+Then both fields should match...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_09 Verify that user is receiving ‘Emails do not match. Please try again’ error if both of fields are not matching with each other" time="7.653">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I click on Enter FDM email address......................................passed
+And I write the email address...............................................passed
+And I click on Confirm FDM email address....................................passed
+And I write the email address different than first field....................passed
+Then It should give the error ‘The entered email does not match’............passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I would like to be able  to request a new password if I've forgotten my password," name="@TMS-425_10 Verify that user receives Password reset request submited once it enter valid username password" time="9.478">
+<system-out><![CDATA[
+Given User is naviated to login page........................................passed
+When I click on forgot password link........................................passed
+Then It should redirect to forgot password page.............................passed
+And I enter valid Confirm FDM email address.................................passed
+And I enter valid FDM email address.........................................passed
+And I click on Request new password button..................................passed
+Then it should be clickable and should display confirmation message Password reset request submited.passed
+]]></system-out>
+</testcase>
+</testsuite>

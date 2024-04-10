@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="126.89" tests="10" skipped="0" failures="3" errors="0">
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_01 Test that the Profile tab is visible on the navigation bar" time="4.729">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user observes navigation bar......................................passed
+Then The user should see the profile tab with a downward chevron key........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_02 Test that when profile tab is clicked, a dropdown menu appears with &quot;View Results and Feedback&quot; option at the top" time="3.605">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+And The user clicks the dropdown arrow......................................passed
+Then The first option displayed at the top is "View Results and Feedback" and chevron key is pointing upwards.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_03 Test that, when user hovers over &quot;View Results and Feedback&quot; option, the option is highlighted with light blue color" time="9.928">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user hovers over "View Results and Feedback" option.................passed
+Then The first option displayed at the top is "View Results and Feedback"...passed
+And The option "View Results and Feedback" is highlighted in light blue on hover.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_04 Test that, when user clicks on option, text turns into bold and highlight turns into dark blue" time="6.353">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[View Results and Feedback]&gt; but was:&lt;[]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[View Results and Feedback]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.trainees.pages.ProfilePage.verifyFirstOption(ProfilePage.java:60)
+	at com.fdmgroup.trainees.stepdefinitions.ProfilePageStepDefinitions.the_first_option_displayed_at_the_top_is(ProfilePageStepDefinitions.java:61)
+	at ✽.The first option displayed at the top is "View Results and Feedback"(file:///Users/clogerie/Desktop/FDM/SeleniumAuto/fdm_tms_qe_pod/src/test/resources/resources/Features/Trainees/Sprint_2/TMS_412_ProfilePage.feature:32)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The first option displayed at the top is "View Results and Feedback"...failed
+And the text turns into bold and the highlight is dark blue.................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_04".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_05 Test that when the link is clicked in the dropdown menu, the results page is loaded along with the data" time="12.975">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The user is redirected to the results and feedback page................passed
+And The table content should be displayed accordingly per column............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_06 Test that the data in the table should be displayed in the following order: Course Name, Start Date, End Date, Trainer, Results/feedback" time="16.113">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The user is redirected to the results and feedback page................passed
+When The user observes the results and feedback page........................passed
+Then Table column should follow the following order: Course, Start Date, End Date, Trainer, Results/feedback.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_07 Test that trainee profile card is displayed on the right side of the table" time="13">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The user is redirected to the results and feedback page................passed
+When The user observes the results and feedback page........................passed
+Then The trainee`s profile card is displayed on the right side of the table.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_08 Test that when a row is hovered over with the mouse, that row is highlighted with light blue" time="21.992">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[white]&gt; but was:&lt;[rgba(0, 0, 0, 0)]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[white]> but was:<[rgba(0, 0, 0, 0)]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.trainees.pages.ViewResultsAndFeedbackPage.verifyWhite(ViewResultsAndFeedbackPage.java:143)
+	at com.fdmgroup.trainees.stepdefinitions.ViewResultsAndFeedbackStepDefinitions.the_hovered_row_turns_into_white(ViewResultsAndFeedbackStepDefinitions.java:54)
+	at ✽.The hovered row turns into white(file:///Users/clogerie/Desktop/FDM/SeleniumAuto/fdm_tms_qe_pod/src/test/resources/resources/Features/Trainees/Sprint_2/TMS_412_ViewResultsAndFeedback.feature:42)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+When The user hovers over table rows........................................passed
+Then Hovered row turns into light blue......................................passed
+When The user hovers away from table rows...................................passed
+Then The hovered row turns into white.......................................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_08".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_09 Test that when a row is clicked on, that row is highlited with medium blue" time="25.005">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[white]&gt; but was:&lt;[rgba(0, 0, 0, 0)]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[white]> but was:<[rgba(0, 0, 0, 0)]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.trainees.pages.ViewResultsAndFeedbackPage.verifyWhite(ViewResultsAndFeedbackPage.java:143)
+	at com.fdmgroup.trainees.stepdefinitions.ViewResultsAndFeedbackStepDefinitions.the_unselected_row_turns_into_original_color(ViewResultsAndFeedbackStepDefinitions.java:79)
+	at ✽.The unselected row turns into original color(file:///Users/clogerie/Desktop/FDM/SeleniumAuto/fdm_tms_qe_pod/src/test/resources/resources/Features/Trainees/Sprint_2/TMS_412_ViewResultsAndFeedback.feature:54)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The user is redirected to results and feedback page....................passed
+When The user selects a table row...........................................passed
+Then The selected row turns into medium blue................................passed
+When The user unselects the selected table row..............................passed
+Then The unselected row turns into original color...........................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_09".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Profile Tab Visibility" name="TC_TMS412_10 Test that Course Name column has filter icon, Start Date and End Date have sort icon displayed" time="12.925">
+<system-out><![CDATA[
+Given User clicks the profile tab to navigate to the profile page...........passed
+Given The user is on the profile page.......................................passed
+When The user clicks the dropdown arrow.....................................passed
+And The user selects "View Results and Feedback" option.....................passed
+Then The user is redirected to results and feedback page....................passed
+When The user observes the results and feedback page........................passed
+Then Course Name has filter icon, Start Date and End Date each has sort icon displayed.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Trainees/Sprint2/" as "TMS_412_010".passed
+]]></system-out>
+</testcase>
+</testsuite>

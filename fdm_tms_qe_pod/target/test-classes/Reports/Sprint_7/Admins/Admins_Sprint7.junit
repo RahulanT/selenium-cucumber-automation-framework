@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="108.083" tests="30" skipped="0" failures="30" errors="0">
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TMS_1432 On view trainees page, test that when admin click on the “Import New Trainees” button it redirects to new pop up window with message Upload excel file with atttended trainees information" time="52.652">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@class,'btn btn-secondary')]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@class,'btn btn-secondary')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class,'btn btn-secondary')]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@class,'btn btn-secondary')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.importNewTraineesButton(ImportTraineePage.java:51)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.as_an_admin_click_import_new_trainees_button(ImportTrainees_stepdefinitions.java:60)
+	at ✽.As an admin, click Import New Trainees button(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given admin is signed in as a admin and has navigated to view trainees page.passed
+When As an admin, click Import New Trainees button..........................failed
+Then Admin should redirect to new pop up window with message "Upload excel file with attended trainees information".skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1084/" as "TMS_1432".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TMS_1433 On pop up window, test that admin should see &quot;file name path or just file name&quot; textbox and &quot;Browse&quot; button, &quot;Cancel&quot; button ,&quot;Ok&quot; button." time="2.107">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@id,'file')]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'file')]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.isTextboxDisplayed(ImportTraineePage.java:59)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.admin_should_be_able_to_see_textbox_and_browse_button_should_be_on_the_right_side_of_textbox_and_admin_should_be_able_to_see_back_button_and_then_ok_button_on_bottom_right_of_window(ImportTrainees_stepdefinitions.java:71)
+	at ✽.Admin should be able to see textbox and Browse button should be on the right side of textbox and admin should be able to see Back button and then Ok button on bottom right of window(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:19)
+]]>
+</failure>
+<system-out><![CDATA[
+Then Admin should be able to see textbox and Browse button should be on the right side of textbox and admin should be able to see Back button and then Ok button on bottom right of window.failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1084/" as "TMS_1433".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TMS_1435 On pop up window, test that, when admin selects a non-excel file, then validation message should be &quot;The file you uploaded is not in the right format. Please check and re-upload again&quot;" time="2.077">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@id,'file')]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'file')]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.browseBtnClick1(ImportTraineePage.java:75)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.as_an_admin_click_on_browse_button_and_selects_non_excel_file(ImportTrainees_stepdefinitions.java:79)
+	at ✽.As an admin click on Browse button and selects non excel file.(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+When As an admin click on Browse button and selects non excel file..........failed
+Then Admin should be able to see validation "The file you uploaded is not in the right format. Please check and re-upload".skipped
+Then Admin clicks cancel button to selects the excel file again.............skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1084/" as "TMS_1435".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TMS_1434 On pop up window, test that when admin click the “Browse” button, admin should be able to see a pop-up window and when admin selects the excel file containing the list of trainees, &quot;ok&quot; button should be activated and when admin clicks on &quot;ok&quot; button, admin should be redirected to &quot; Import Attended Trainees&quot; page. If admin clicks on &quot;cancel&quot; button, then admin should not be redirected to &quot;Import Attended Trainees&quot; page" time="2.13">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@id,'file')]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'file')]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'file')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.browseBtnClick(ImportTraineePage.java:82)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.on_pop_up_window_as_an_admin_click_on_browse_button_and_select_excel_file(ImportTrainees_stepdefinitions.java:95)
+	at ✽.On pop up window,As an admin click on Browse button and select excel file(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:33)
+]]>
+</failure>
+<system-out><![CDATA[
+When On pop up window,As an admin click on Browse button and select excel file.failed
+When On pop up window,As an admin click on ok button........................skipped
+Then Admin should be able to redirect to  Import Attended Trainees page.....skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1084/" as "TMS_1434".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TMS_1447 Verify that GET request to http://localhost:8080/trainee/trainees should return status code 200 if database has all trainees" time="2.955">
+<failure type="java.lang.AssertionError" message="
+Expected: &lt;200&gt;
+     but: was &lt;404&gt;">
+<![CDATA[java.lang.AssertionError: 
+Expected: <200>
+     but: was <404>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.status_code_should_be_returned_when_get_the_list_of_trainees(ImportTrainees_stepdefinitions.java:195)
+	at ✽.status code 200 should be returned when get the list of trainees(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:41)
+]]>
+</failure>
+<system-out><![CDATA[
+When In Postman, send a Get request to  "/trainee/trainees".................passed
+Then status code 200 should be returned when get the list of trainees.......failed
+And I should see the name of trainees.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="Verify that GET request to /trainer/id should return status code 200 if database has trainers for that id" time="0.335">
+<failure type="io.restassured.path.json.exception.JsonPathException" message="Failed to parse the JSON document">
+<![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.i_should_see_the_trainee_firstname_name_as(ImportTrainees_stepdefinitions.java:214)
+	at ✽.I should see the trainee firstname name as "Johnny"(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:55)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.i_should_see_the_trainee_firstname_name_as(ImportTrainees_stepdefinitions.java:214)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146)
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+]]>
+</failure>
+<system-out><![CDATA[
+When send a Get request with path parameter to  "/trainee/{userId}".........passed
+Then I should see the trainee firstname name as "Johnny"....................failed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="TC_TMS1176_06 Verify that GET request to /trainer/id should return null if database has no trainers for that id" time="0.058">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[null]&gt; but was:&lt;[&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot;&quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+&lt;HTML&gt;&lt;HEAD&gt;&lt;TITLE&gt;Not Found&lt;/TITLE&gt;
+&lt;META HTTP-EQUIV=&quot;Content-Type&quot; Content=&quot;text/html; charset=us-ascii&quot;&gt;&lt;/HEAD&gt;
+&lt;BODY&gt;&lt;h2&gt;Not Found&lt;/h2&gt;
+&lt;hr&gt;&lt;p&gt;HTTP Error 404. The requested resource is not found.&lt;/p&gt;
+&lt;/BODY&gt;&lt;/HTML&gt;
+]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[null]> but was:<[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Not Found</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Not Found</h2>
+<hr><p>HTTP Error 404. The requested resource is not found.</p>
+</BODY></HTML>
+]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.it_should_have_return_null_body(ImportTrainees_stepdefinitions.java:220)
+	at ✽.it should  have return  <null> body(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:62)
+]]>
+</failure>
+<system-out><![CDATA[
+When send a Get request with path parameter to  "/trainer/{userId}".........passed
+Then it should  have return  <null> body....................................failed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1084 As an Academy Admin, I want to import a list of trainees from an Excel file into our Training Management System (TMS), With the ability to filter trainees by location, pathway, and start date before saving them to the database, So that I can efficiently onboard and organize trainees based on specific criteria." name="admin check for email of trainee - Example #1.1" time="2.103">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@id,'location')]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'location')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@id,'location')]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[contains(@id,'location')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportAttendedTraineesPage.clickLocationDropDown(ImportAttendedTraineesPage.java:55)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.admin_select_the_location_in_import_attended_trainee_page_from_the_dropdown_which_is_same_as_location_in_excel_row(ImportTrainees_stepdefinitions.java:124)
+	at ✽.admin select the location in import attended trainee page from the dropdown which is same as location in excel row  "2"(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1084_ImportTrainees.feature:73)
+]]>
+</failure>
+<system-out><![CDATA[
+Given admin select the location in import attended trainee page from the dropdown which is same as location in excel row  "2".failed
+When admin select the pathway in import attended trainee page from the dropdown which is same as pathway in excel row "2".skipped
+And admin select the start date in import attended trainee page from the dropdown which is same as start date in excel row "2".skipped
+And admin click the apply button............................................skipped
+And admin click import trainee button.......................................skipped
+And compare email result with what is shown in excel row "2" and fill the results to excel.skipped
+Then admin check the already import column in excel row "2" and check coressponding message on pop up window.skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2015 is automation for TMS_1269 The View Cohorts functionality for Admin" name="TMS_2016 Academy Admin should be able to navigate to &quot;View Cohorts&quot; page." time="1.8">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewCohorts.feature:16)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_9/Admins/TMS_2015/" as "TMS_2016".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2015 is automation for TMS_1269 The View Cohorts functionality for Admin" name="TMS_2017 Academy Admin should be able to see data fetched from db." time="0.909">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewCohorts.feature:24)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_9/Admins/TMS_2015/" as "TMS_2017".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1695 Academy Admin should be able to view title on view cohorts page" time="1.37">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:17)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1695".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1696 All data should be fetched from db" time="6.155">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[1]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//td[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[1]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//td[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.all_data_should_be_fetched_from_the_db(ViewCohorts_stepDefinition.java:39)
+	at ✽.All data should be fetched from the db(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:27)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................passed
+And All data should be fetched from the db..................................failed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1696".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1697 Navigate to view cohorts page" time="0.934">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:35)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1697".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1698 Cohort Id should be displayed" time="0.779">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:45)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1698".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1698 Sorting button should be displayed besides Start Date" time="0.937">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:56)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Start Date...................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1698".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1700 Sorting button should be displayed besides Duration" time="1.174">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:68)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1700".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1701 Filter pop-up should be displayed for view cohorts" time="0.879">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:80)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts......................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1701".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1702 Sorting button should be displayed besides Region Country for view cohorts" time="0.946">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:93)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts......................skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1702".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1703 Region Country list should be filtered with NA only new" time="0.86">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:107)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts......................skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Region Country list should be filtered with NA only for view cohorts....skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1703".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1704 Sorting button should be displayed besides City new" time="1.081">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:122)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts......................skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Region Country list should be filtered with NA only for view cohorts....skipped
+And Sorting button should be displayed besides City for view cohorts........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1704".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1705 Filter button should be displayed besides City new" time="1.005">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:138)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts......................skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Region Country list should be filtered with NA only for view cohorts....skipped
+And Sorting button should be displayed besides City for view cohorts........skipped
+And Filter button should be displayed besides City for view cohorts.........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1705".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1706 Pathway displayed properly" time="0.912">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:155)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts for view cohorts.....skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Region Country list should be filtered with NA only for view cohorts....skipped
+And Sorting button should be displayed besides City for view cohorts........skipped
+And Filter button should be displayed besides City for view cohorts.........skipped
+And Pathway displayed properly for view cohorts.............................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1706".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS1269 The Academy Admin I should be able to view title on view cohorts page" name="TMS_1707 create cohort is displayed" time="0.959">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;...tp://localhost:4200/[login]&gt; but was:&lt;...tp://localhost:4200/[view-cohorts]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<...tp://localhost:4200/[login]> but was:<...tp://localhost:4200/[view-cohorts]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.ViewCohorts_stepDefinition.user_should_be_able_to_view_title_on_view_cohorts_page(ViewCohorts_stepDefinition.java:28)
+	at ✽.User should be able to view title on view cohorts page(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1269_ViewTitle.feature:173)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the View Cohorts page using url.............................passed
+And User should be able to view title on view cohorts page..................failed
+And All data should be fetched from the db..................................skipped
+And Admin should be able to navigate to view cohorts page...................skipped
+And Cohort Id should be displayed...........................................skipped
+And Sorting button should be displayed besides Duration.....................skipped
+And Filter pop-up should be displayed for view cohorts for view cohorts.....skipped
+And Sorting button should be displayed besides Region Country for view cohorts.skipped
+And Region Country list should be filtered with NA only for view cohorts....skipped
+And Sorting button should be displayed besides City for view cohorts........skipped
+And Filter button should be displayed besides City for view cohorts.........skipped
+And Pathway displayed properly for view cohorts.............................skipped
+And create cohort is displayed for view cohorts.............................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1269/" as "TMS_1707".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS-1428 As an admin, I want to be able to clear all currently applied filters so that I can view all data in its default form.&quot;" name="TMS_1662 Test that &quot;clear all&quot; button is clickable" time="2.656">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='label'])[4]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='label'])[4]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearAllAppliedFilterPage.clickOnClearButton(ClearAllAppliedFilterPage.java:41)
+	at com.fdmgroup.admins.stepdefinitions.ClearAllAppliedFilters.click_on_button(ClearAllAppliedFilters.java:29)
+	at ✽.click on "clear all" button(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1428_ClearAllAppliedFilters.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin redirected to calendar page to check filter functions...........passed
+When click on "clear all" button............................................failed
+Then it should clicked clear all............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1428/" as "TMS_1662".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS-1428 As an admin, I want to be able to clear all currently applied filters so that I can view all data in its default form.&quot;" name="TMS_1663 Test that clicking on &quot;clear all&quot; will reset all the selections" time="2.316">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id = 'theUsername']&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id = 'theUsername']"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//input[@id = 'theUsername']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearAllAppliedFilterPage.setUsername(ClearAllAppliedFilterPage.java:32)
+	at com.fdmgroup.admins.stepdefinitions.ClearAllAppliedFilters.admin_redirected_to_calendar_page_to_check_filter_functions(ClearAllAppliedFilters.java:21)
+	at ✽.Admin redirected to calendar page to check filter functions(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1428_ClearAllAppliedFilters.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin redirected to calendar page to check filter functions...........failed
+When click on "clear all" button............................................skipped
+Then it should clicked clear all............................................skipped
+And check that clicking on clear all button will reset filter...............skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1428/" as "TMS_1663".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1429 As an admin I want to able to clear each filter individually in the calendar page so that I can reset any of the specific applied filters." name="TMS_1658 Test that &quot;clear all&quot; button will be located inside each filter including region, pathway and course." time="2.385">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='label']&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='label']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='label']"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='label']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearEachFilterPage.clickRegion(ClearEachFilterPage.java:39)
+	at com.fdmgroup.admins.stepdefinitions.ClearEachFilter.click_on_region(ClearEachFilter.java:23)
+	at ✽.Click on region(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1429_ClearEachFilter.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page view.................................passed
+When Click on region........................................................failed
+Then check that clear all is available for region...........................skipped
+When Click on pathway.......................................................skipped
+Then check that clear all is available for pathway..........................skipped
+When Click on course........................................................skipped
+Then check that clear all is available for course...........................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1429/" as "TMS_1658".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1429 As an admin I want to able to clear each filter individually in the calendar page so that I can reset any of the specific applied filters." name="TMS_1659 Test that &quot;clear all&quot; button is  available" time="2.452">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='label']&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='label']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='label']"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='label']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearEachFilterPage.clickRegion(ClearEachFilterPage.java:39)
+	at com.fdmgroup.admins.stepdefinitions.ClearEachFilter.click_on_region(ClearEachFilter.java:23)
+	at ✽.Click on region(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1429_ClearEachFilter.feature:17)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page view.................................passed
+When Click on region........................................................failed
+Then it should clicked region...............................................skipped
+Then check that clear all button is available for region....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1429/" as "TMS_1659".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1429 As an admin I want to able to clear each filter individually in the calendar page so that I can reset any of the specific applied filters." name="TMS_1660 Test that clicking on &quot;clear all&quot; button will reset the filter" time="2.299">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='label'])[2]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='label'])[2]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearEachFilterPage.clickPathway(ClearEachFilterPage.java:43)
+	at com.fdmgroup.admins.stepdefinitions.ClearEachFilter.click_on_pathway(ClearEachFilter.java:33)
+	at ✽.Click on pathway(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1429_ClearEachFilter.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page view.................................passed
+When Click on pathway.......................................................failed
+Then Click on BAPM..........................................................skipped
+Then check that clicking on clear all button will reset the filter..........skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1429/" as "TMS_1660".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1429 As an admin I want to able to clear each filter individually in the calendar page so that I can reset any of the specific applied filters." name="TMS_1661 Test that clearing section of one filter will not affect the other filters" time="2.322">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[@class='label'])[3]&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='label'])[3]"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=(//*[@class='label'])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ClearEachFilterPage.clickCourse(ClearEachFilterPage.java:47)
+	at com.fdmgroup.admins.stepdefinitions.ClearEachFilter.click_on_course(ClearEachFilter.java:76)
+	at ✽.click on course(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_1429_ClearEachFilter.feature:33)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar page view.................................passed
+When click on course........................................................failed
+Then Click on AEM course....................................................skipped
+Then check that clear on filter for course doesn't affect others............skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_1429/" as "TMS_1661".skipped
+]]></system-out>
+</testcase>
+<testcase classname="TMS_959 As an admin, I want to see Out of Office status in the calendar when showing trainer’s schedule." name="TMS_1506 Test that &quot;Out of office bar&quot; is in red color" time="2.396">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class='bi bi-chevron-left']&quot;}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='bi bi-chevron-left']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='bi bi-chevron-left']"}
+  (Session info: chrome=118.0.5993.118)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cbd55c88c94231fbf69e721f09acadda, findElement {using=xpath, value=//*[@class='bi bi-chevron-left']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51373/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd55c88c94231fbf69e721f09acadda
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.OutOfOfficePage.clickBar(OutOfOfficePage.java:21)
+	at com.fdmgroup.admins.stepdefinitions.OutOfOfficeBar.click_on_bar(OutOfOfficeBar.java:22)
+	at ✽.Click on bar(file:///C:/Users/HP/Desktop/AAAAAAA/fdm_tms_qe_pod/src/test/resources/Features/Sprint_7/Admins/TMS_959_OutOfOfficeBar.feature:6)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Admin selected the calendar view page.................................passed
+When Click on bar...........................................................failed
+Then it should be in red color..............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_7/Admins/TMS_959/" as "TMS_1506".skipped
+]]></system-out>
+</testcase>
+</testsuite>

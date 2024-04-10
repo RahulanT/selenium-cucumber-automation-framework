@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="92.934" tests="13" skipped="0" failures="4" errors="0">
+<testcase classname="Access course material Functionality" name="TC_TMS User should be logged in to the system" time="9.251">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of CourseOwner............................passed
+And user clicks the login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_01 Test that all the courses are available in the course Catalogue" time="1.131">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_1".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_02 Test that go to material button redirected to correct course material" time="2.615">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[position()=1]//button&quot;}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//div[position()=1]//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[position()=1]//button"}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//div[position()=1]//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseOwnerPage.clickProskillMaterialButton(CourseOwnerPage.java:25)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseMaterial_stepdefinitions.user_is_able_to_click_on_proskills_go_to_material_button(CourseMaterial_stepdefinitions.java:69)
+	at ✽.User is able to click on Proskills go to material button(file:///C:/Users/navpr/OneDrive/Desktop/TMSAUTOMATIN/fdm_tms_qe_pod/src/test/resources/Features/Sprint_4/CourseOwners/TMS_543_CourseCatalogue.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+And User is able to click on Proskills go to material button................failed
+Then User is redirected to Proskills course material button.................skipped
+And User is able to click on go to OOD material button......................skipped
+Then User is redirected to OOD course material button.......................skipped
+And User is able to click on Botium go to material button...................skipped
+Then User is redirected to Botium course material button....................skipped
+And User is able to click on Business Analysis go to material button........skipped
+Then User is redirected to Business Analysis course material button.........skipped
+And User is able to click on Excel go to material button....................skipped
+Then User is redirected to Excel course material button.....................skipped
+And User is able to click on Git go to material button......................skipped
+Then User is redirected to Git course material button.......................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_2".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_03 Test that  if data table is dispalyed with columns and rows" time="12.05">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/app-root/div/div/app-course-material/div[2]/div[2]/table&quot;}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=/html/body/app-root/div/div/app-course-material/div[2]/div[2]/table}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/div/div/app-course-material/div[2]/div[2]/table"}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=/html/body/app-root/div/div/app-course-material/div[2]/div[2]/table}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseMaterialPage.getDataTable(CourseMaterialPage.java:133)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseMaterial_stepdefinitions.user_should_be_able_to_see_a_table_with_rows_and_columns_on_pro_skills_course_material_page(CourseMaterial_stepdefinitions.java:142)
+	at ✽.User should be able to see a table with rows and columns on ProSkills course Material Page(file:///C:/Users/navpr/OneDrive/Desktop/TMSAUTOMATIN/fdm_tms_qe_pod/src/test/resources/Features/Sprint_4/CourseOwners/TMS_543_CourseCatalogue.feature:36)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to see a table with rows and columns on ProSkills course Material Page.failed
+When User is on OOD course Material Page....................................skipped
+Then User should be able to see a table with rows and columns on OOD course Material Page.skipped
+When User is on Business Analysis course Material Page......................skipped
+Then User should be able to see a table with rows and columns	on Business Analysis course Material Page.skipped
+When User is on Excel course Material Page..................................skipped
+Then User should be able to see a table with rows and columns on Excel course Material Page.skipped
+When User is on Git course Material Page....................................skipped
+Then User should be able to see a table with rows and columns	on Git course Material Page.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_3".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_04 Test that  if Check box is available in each row to select the file" time="16.923">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to verify if check box is available on ProSkills course Material Page.passed
+And user can  select or unselect file.......................................passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to verify if check box is available on OOD course Material Page.passed
+And user can  select or unselect file on OOD................................passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to verify if check box is available on Business Analysis course Material Page.passed
+And user can  select or unselect file on Business Analysis..................passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to verify if check box is available on Excel course Material Page.passed
+And user can  select or unselect file on Excel..............................passed
+When User is on Git course Material Page....................................passed
+Then User should be able to verify if check box is available on Git course Material Page.passed
+And user can  select or unselect file on Git................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_4".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_05 Test that if File name column is there" time="11.088">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User check if there is filename given to each file on ProSkills course Material Page.passed
+When User is on OOD course Material Page....................................passed
+Then User check if there is filename given to each file on OOD course Material Page.passed
+When User is on Business Analysis course Material Page......................passed
+Then User check if there is filename given to each file on Business Analysis course Material Page.passed
+When User is on Excel course Material Page..................................passed
+Then User check if there is filename given to each file on Excel course Material Page.passed
+When User is on Git course Material Page....................................passed
+Then User check if there is filename given to each file on Git course Material Page.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_5".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_06 Test that if &quot;file modification column&quot; is available" time="10.349">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check modification date column in the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check modification date column in the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check modification date column in the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check modification date column in the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check modification date column in the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_6".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_07 Test that if  &quot;size of file&quot; column is available" time="7.955">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if size column is displayed  in the ProSkills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if size column is displayed  in the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if size column is displayed  in the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if size column is displayed  in the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if size column is displayed  in the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_7".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_09 Test that if &quot;view icon&quot; is available in the row" time="5.958">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if view icon of an eye shape is availble in the row to view  the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_9".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_10 Test that if &quot;download icon&quot; is available in the row" time="3.988">
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Proskills course material.passed
+When User is on OOD course Material Page....................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the OOD course material.passed
+When User is on Business Analysis course Material Page......................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Business Analysis course material.passed
+When User is on Excel course Material Page..................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Excel course material.passed
+When User is on Git course Material Page....................................passed
+Then User should be able to check if download icon of a downward arrow is availble in the row to download the Git course material.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_11 Test that if &quot;delete icon&quot; is available in the row" time="3.23">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-icon[text()='delete']&quot;}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//mat-icon[text()='delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-icon[text()='delete']"}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//mat-icon[text()='delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseOwnerPage.getDeleteIcon(CourseOwnerPage.java:86)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseMaterial_stepdefinitions.user_should_be_able_to_check_if_delete_icon_is_availble_in_the_row_to_delete_any_file_in_the_proskills_course_material(CourseMaterial_stepdefinitions.java:449)
+	at ✽.User should be able to check if delete icon  is availble in the row to delete any file in   the Proskills course material(file:///C:/Users/navpr/OneDrive/Desktop/TMSAUTOMATIN/fdm_tms_qe_pod/src/test/resources/Features/Sprint_4/CourseOwners/TMS_543_CourseCatalogue.feature:151)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Proskills course material.failed
+When User is on OOD course Material Page....................................skipped
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the OOD course material.skipped
+When User is on Business Analysis course Material Page......................skipped
+Then User should be able to check if delete icon  is availble in the row to delete any file in  the Business Analysis course material.skipped
+When User is on Excel course Material Page..................................skipped
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Excel course material.skipped
+When User is on Git course Material Page....................................skipped
+Then User should be able to check if delete icon  is availble in the row to delete any file in   the Git course material.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_11".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="TC_TMS852_12 Test that if Archive/Unarchive  icon is available in the row" time="3.891">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//mat-icon[text()='inbox']&quot;}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//mat-icon[text()='inbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-icon[text()='inbox']"}
+  (Session info: chrome=116.0.5845.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [428a8fe05e3ee147afc32938d6dcd790, findElement {using=xpath, value=//mat-icon[text()='inbox']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.140, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\navpr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51615}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51615/devtoo..., se:cdpVersion: 116.0.5845.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 428a8fe05e3ee147afc32938d6dcd790
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getText(Unknown Source)
+	at com.fdmgroup.courseowners.pages.CourseOwnerPage.getArchiveUnarchive(CourseOwnerPage.java:91)
+	at com.fdmgroup.courseowners.stepdefinitions.CourseMaterial_stepdefinitions.user_should_be_able_to_check_if_archive_unarchive_icon_is_availble_in_a_dropbox_shape_to_archive_unarchive_the_file_from_the_proskills_course_material(CourseMaterial_stepdefinitions.java:484)
+	at ✽.User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Proskills course material(file:///C:/Users/navpr/OneDrive/Desktop/TMSAUTOMATIN/fdm_tms_qe_pod/src/test/resources/Features/Sprint_4/CourseOwners/TMS_543_CourseCatalogue.feature:166)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User is logged in as a Course Owner and navigate to Course Catalogue page.passed
+When User is on ProSkills course Material Page..............................passed
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Proskills course material.failed
+When User is on OOD course Material Page....................................skipped
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the OOD course material.skipped
+When User is on Business Analysis course Material Page......................skipped
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Business Analysis course material.skipped
+When User is on Excel course Material Page..................................skipped
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Excel course material.skipped
+When User is on Git course Material Page....................................skipped
+Then User should be able to check if Archive/Unarchive Icon is availble in a dropbox shape  to Archive/Unarchive the file from  the Git course material.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/CourseOwners/TMS_543/" as "TMS_852_12".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Access course material Functionality" name="Verify GET Request for Course Material" time="1.539">
+<system-out><![CDATA[
+Given a GET request is made to "/course-material/1".........................passed
+Then the response status code should be 200.................................passed
+And the response should contain the following details:......................passed
+]]></system-out>
+</testcase>
+</testsuite>

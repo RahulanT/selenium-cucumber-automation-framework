@@ -1,0 +1,17 @@
+2024-04-10 09:43:36,483 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-10 09:49:10,287 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fdmgroup:FDM_TMS_QE_POD:0.0.1-SNAPSHOT @ C:\Users\rwavb\Documents\rwavBeanStalk~workspace\jenkins~practice\fdm-testing-automation-framework\fdm_tms_qe_pod\pom.xml.
+2024-04-10 09:49:12,328 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-10 09:49:15,749 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:49:15,777 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-10 09:49:15,831 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:49:15,886 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1860 resources
+2024-04-10 09:50:43,065 [Worker-38: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fdmgroup:FDM_TMS_QE_POD:0.0.1-SNAPSHOT @ C:\Users\rwavb\Documents\rwavBeanStalk~workspace\jenkins~practice\fdm-testing-automation-framework\fdm_tms_qe_pod\pom.xml.
+2024-04-10 09:50:43,397 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-04-10 09:50:43,764 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:50:43,764 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-10 09:50:43,774 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:50:43,789 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1860 resources
+2024-04-10 09:50:54,978 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:50:54,990 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-04-10 09:50:55,007 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 09:50:55,917 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1860 resources

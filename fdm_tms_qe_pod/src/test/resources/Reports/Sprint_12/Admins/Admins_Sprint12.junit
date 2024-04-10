@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testsuite name="Cucumber" time="77.974" tests="5" skipped="0" failures="3" errors="0">
+<testcase classname="TMS_2205 As an Academy Admin, I want to be able to select single or multiple skills from a ‘Skills’ drop-down so that each trainee has an appropriate skills assigned to them." name="TC_TMS User should be logged in to the system" time="19.641">
+=======
+<testsuite name="Cucumber" time="9.452" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TC_TMS User should be logged in to the system" time="4.172">
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of admin..................................passed
+And user clicks the login btn...............................................passed
+]]></system-out>
+</testcase>
+<<<<<<< HEAD
+<testcase classname="TMS_2205 As an Academy Admin, I want to be able to select single or multiple skills from a ‘Skills’ drop-down so that each trainee has an appropriate skills assigned to them." name="TMS_2432 Test that user can edit, remove and select single/multiple skills from dropdown" time="13.834">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@routerlink,'admin')]&quot;}
+  (Session info: chrome=120.0.6099.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369a0cafb6a4b1a1146ed0f0dde1b244, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62805/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369a0cafb6a4b1a1146ed0f0dde1b244">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@routerlink,'admin')]"}
+  (Session info: chrome=120.0.6099.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369a0cafb6a4b1a1146ed0f0dde1b244, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62805}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62805/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369a0cafb6a4b1a1146ed0f0dde1b244
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.DisplaySkillsPage.clickAdminLink(DisplaySkillsPage.java:41)
+	at com.fdmgroup.admins.stepdefinitions.DisplaySkills_stepdefinitions.the_user_is_logged_in_as_an_academy_admin_in_the_tms(DisplaySkills_stepdefinitions.java:26)
+	at ✽.The user is logged in as an Academy admin in the TMS(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2205_EditSkills.feature:12)
+]]>
+</failure>
+=======
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TMS_2368 On Trainee Profile page, verify if the edit button is working correctly" time="1.217">
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+<system-out><![CDATA[
+<<<<<<< HEAD
+Given The user is logged in as an Academy admin in the TMS..................failed
+When As an admin, test that I can edit,remove and select single or mutltiple  skills from dropdown.skipped
+Then Admin should be able to edit, remove or select single or multiple skils.skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_12/Admins/TMS_2205/" as "TMS_2432".skipped
+=======
+Given A user is logged in as an admin in the TMS and is on the view trainees profile card page.passed
+When As an admin, verify if the edit button is working correctly............passed
+Then admin should be able to edit the text fields...........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_1955/" as "TMS_2368".passed
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+]]></system-out>
+</testcase>
+<<<<<<< HEAD
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TC_TMS User should be logged in to the system" time="17.196">
+=======
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TMS_2375 On Trainee Profile page, verify if cohort is changing when pathway is changed" time="1.586">
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+<system-out><![CDATA[
+When As an admin, verify if cohort is changing when changing cohort.........passed
+Then admin should be able to see cohort is changed..........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_1955/" as "TMS_2375".passed
+]]></system-out>
+</testcase>
+<<<<<<< HEAD
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TMS_2435 Test that skills are sorted in alphabetically vertical order" time="11.497">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@routerlink,'admin')]&quot;}
+  (Session info: chrome=120.0.6099.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ad463061f139b1df5f46c5fec801c61, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62860/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ad463061f139b1df5f46c5fec801c61">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@routerlink,'admin')]"}
+  (Session info: chrome=120.0.6099.201)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ad463061f139b1df5f46c5fec801c61, findElement {using=xpath, value=//*[contains(@routerlink,'admin')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62860}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62860/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ad463061f139b1df5f46c5fec801c61
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.sendKeys(Unknown Source)
+	at com.fdmgroup.admins.pages.DisplaySkillsPage.clickAdminLink(DisplaySkillsPage.java:41)
+	at com.fdmgroup.admins.stepdefinitions.DisplaySkills_stepdefinitions.the_user_is_logged_in_as_an_academy_admin_in_the_tms(DisplaySkills_stepdefinitions.java:26)
+	at ✽.The user is logged in as an Academy admin in the TMS(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2330_DisplaySkills.feature:12)
+]]>
+</failure>
+=======
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TMS_2369 On Trainee Profile page, verify if the edit button is working correctly" time="0.596">
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+<system-out><![CDATA[
+<<<<<<< HEAD
+Given The user is logged in as an Academy admin in the TMS..................failed
+When As an admin, test that sorting skills is working properly..............skipped
+Then It should work.........................................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_12/Admins/TMS_2330/" as "TMS_2435".skipped
+=======
+Then admin should be able to see the edited updated information.............passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_1955/" as "TMS_2369".passed
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+]]></system-out>
+</testcase>
+<<<<<<< HEAD
+<testcase classname="TMS_2330 As an Academy Admin,I want to be able to view a full list of Trainee’s skills when viewing their profile, so that I can know what skills the particular Trainee/Consultant has." name="TC_TMS User should be logout the system" time="13.286">
+<failure type="org.openqa.selenium.NoSuchElementException" message="Unable to find element with locator By.xpath: //*[contains(@class,'profile-icon')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver">
+<![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //*[contains(@class,'profile-icon')]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.fdmgroup.admins.pages.ImportTraineePage.profileIconClick(ImportTraineePage.java:113)
+	at com.fdmgroup.admins.stepdefinitions.ImportTrainees_stepdefinitions.clicks_profile_icon_of_admin(ImportTrainees_stepdefinitions.java:238)
+	at ✽.clicks profile icon of admin(file:///C:/Users/HP/Desktop/TestingTms/fdm_tms_qe_pod/src/test/resources/Features/Sprint_12/Admins/TMS_2330_DisplaySkills.feature:19)
+]]>
+</failure>
+=======
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TMS_2371 On Trainee Profile page, verify if the pop up screen after a save button has been hit" time="0.395">
+<system-out><![CDATA[
+Then admin should be able to see a pop up after the save button is hit......passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_1955/" as "TMS_2371".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_1955 As an Academy Admin,I want to be able to edit  trainee’s information on the trainee profile interface so that I can update the trainee’s information." name="TC_TMS User should be logout the system" time="0.322">
+>>>>>>> refs/heads/TMS_POD_EDIT_TRAINEES_PROFILE
+<system-out><![CDATA[
+When clicks profile icon of admin...........................................failed
+And admin clicks the Logout button..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

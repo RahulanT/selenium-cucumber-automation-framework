@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.004" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_2287 As an Academy Admin, I want to have at least 8 search results display in the search box , so that I can see at least 8 search results without scrolling." name="TC_TMS User should be logged in to the system" time="3.443">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password of Admin..................................passed
+And user clicks the login Btn...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2287 As an Academy Admin, I want to have at least 8 search results display in the search box , so that I can see at least 8 search results without scrolling." name="TMS_2320 test search bar of trainees with no matching name" time="1.468">
+<system-out><![CDATA[
+When As an admin, search for a name not in the list and verify there is 0 matches.passed
+Then admin should be able to see the search option and 0 matches are found..passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_2287/" as "TMS_2320".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2287 As an Academy Admin, I want to have at least 8 search results display in the search box , so that I can see at least 8 search results without scrolling." name="TMS_2321 On Trainee Profile page,test that when admin, clicks on search option, admin should be able to see the 8 searches without scrolling" time="0.23">
+<system-out><![CDATA[
+When As an admin, add 8 searches and verify there is no scrollbar...........passed
+Then admin should be able to see the search option and no scrollbars are there.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_2287/" as "TMS_2321".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2287 As an Academy Admin, I want to have at least 8 search results display in the search box , so that I can see at least 8 search results without scrolling." name="TMS_2322 On Trainee Profile page,test that when admin, clicks on search option, admin should be able to see the 9 searches with scrolling" time="0.23">
+<system-out><![CDATA[
+When As an admin, add 9 searches and verify there is scrollbar..............passed
+Then admin should be able to see the search option and scrollbars are there.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_14/Admins/TMS_2287/" as "TMS_2322".passed
+]]></system-out>
+</testcase>
+</testsuite>

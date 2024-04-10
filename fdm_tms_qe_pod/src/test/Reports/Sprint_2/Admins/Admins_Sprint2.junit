@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.235" tests="20" skipped="0" failures="7" errors="0">
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_01 Test that Admin should be able to enter Assessment Name in &quot;Assessment Name&quot; input field" time="3.173">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Assessment Name input field.............................passed
+Then The input field should be editable.....................................passed
+When Admin enter "QA Test" in Assessment Name input field...................passed
+Then The "QA Test" should be entered into input field.......................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_01".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_02 Test that Admin should be able to select different status from the &quot;Status&quot; dropdown list" time="1.556">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin select "Inactive" status from Status dropdown list...............passed
+Then "Inactive" status should be selected...................................passed
+When Admin select "Select status" status from Status dropdown list..........passed
+Then "Select status" status should be selected..............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_02".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_03 Test that Admin should be able to select different grade scale from the &quot;Grade Scale&quot; dropdown list" time="1.694">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin select "Other" option from Grade Scale dropdown list.............passed
+Then "Other" option should be selected......................................passed
+When Admin select "Select Grade Scale" option from Grade Scale dropdown list.passed
+Then "Select Grade Scale" option should be selected.........................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_03".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_04 Test that Admin should be able to enter description in &quot;Description&quot; input field" time="0.578">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Description input field.................................passed
+Then The Description input field should be editable.........................passed
+When Admin enter "QA Test Description" in Description input field...........passed
+Then The "QA Test Description" should be entered into Description input field.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_04".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_05 Test that Admin should be able to enter instructions in &quot;Instructions&quot; input field" time="0.372">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin click on Instructions input field................................passed
+Then The Instructions input field should be editable........................passed
+When Admin enter "QA Test Instructions" in Instructions input field.........passed
+Then The "QA Test Instructions" should be entered into Instructions input field.passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_05".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_06 Test that Admin should be able to see &quot;Create&quot; button disabled when mandatory fields are empty" time="0.438">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin check that mandatory field Assessment Name is empty..............passed
+Then Assessment Name input field should be empty............................passed
+When Admin check that mandatory field Status is selected as "Select status" option.passed
+Then Status dropdown list should be selected as "Select status" option......passed
+When Admin check that mandatory field Grade Scale is selected as "Select Grade Scale" option.passed
+Then Grade Scale dropdown list should be selected as "Select Grade Scale" option.passed
+When Admin confirm that Create button is disabled...........................passed
+Then Create button should be disabled.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_06".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_07 Test that Admin should be able to see &quot;Create&quot; button enabled when mandatory fields are filled" time="1.401">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin confirm that Create button is enabled............................passed
+Then Create button should be enabled........................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_07".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_08 Test that Admin should be able to clear all fields when click on &quot;Cancel&quot; button" time="2.072">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Cancel Button" in Assessment Name input field........passed
+Then "Test Cancel Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin enter "Test Description" in Description input field..............passed
+Then The "Test Description" should be entered into Description input field..passed
+When Admin enter "Test Instructions" in Instructions input field............passed
+Then The "Test Instructions" should be entered into Instructions input field.passed
+When Admin click on Cancel button...........................................passed
+Then Data from all the fields should be cleared.............................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_08".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_09 Test that Admin should be able to see heading on Create Assessment page" time="0.297">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin confirm that "Create Assessment Form" is displayed as a heading of the page.passed
+Then "Create Assessment Form" should be displayed as a page heading.........passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_09".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_10 Test that Admin should be able to see pop-up with text &quot;Assessment created successfully.&quot; when click on &quot;Create&quot; button" time="1.653">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with text "Assessment created successfully.".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_10".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_11 Test that Admin should be able to see pop-up with text &quot;Assessment already exists. Try different assessment name.&quot; when click on &quot;Create&quot; button" time="1.666">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Create Button" in Assessment Name input field........passed
+Then "Test Create Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with text "Assessment already exists. Try different assessment name.".passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_11".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_12 Test that Admin should be able to close pop-up when click on &quot;x&quot; close buton" time="1.7">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test close Button" in Assessment Name input field.........passed
+Then "Test close Button" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with the x close button on top-right corner.passed
+When Admin click on x close button..........................................passed
+Then Pop-up should be closed................................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_12".passed
+]]></system-out>
+</testcase>
+<testcase classname="As an Academy Admin, I want to create an assessment template, So that I can start designing customized assessments from there." name="TC_TMS469_13 Test that Admin should be able to open Customize Form page when click on &quot;Customize Form&quot; button inside the pop-up" time="1.666">
+<system-out><![CDATA[
+Given User is logged in as an Admin and navigate to Create Assessment Form page.passed
+When Admin enter "Test Customize Form" in Assessment Name input field.......passed
+Then "Test Customize Form" should be displayed in Assessment Name input field.passed
+When Admin click on Status dropdown list....................................passed
+Then Status dropdown list should be displayed...............................passed
+When Admin select "Active" status from Status dropdown list.................passed
+Then "Active" status should be selected.....................................passed
+When Admin click on Grade Scale dropdown list...............................passed
+Then Grade Scale dropdown list should be displayed..........................passed
+When Admin select "FDM Academy Grade Scale" option from Grade Scale dropdown list.passed
+Then "FDM Academy Grade Scale" option should be selected....................passed
+When Admin click on Create button...........................................passed
+Then Pop-up should be displayed with Customize Form button..................passed
+When Admin click on Customize Form button...................................passed
+Then Customize Form page should be displayed................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_469_13".passed
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_01 Test that Admin can select filter button on the left top corner." time="0.122">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin clicks on filter button on the right top corner..................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_01".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_02 Test that Admin can select specific week by navigating through the left navigator and right navigator button through a button on top right corner." time="0.106">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin clicks on left navigator button on the center corner button......skipped
+Then Admin clicks on right navigator button on the center corner button.....skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_02".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_03 Test that Admin can intially see  one weekly calendar" time="0.104">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin is on calendar page..............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_03".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_04 Test that Admin can see the calendar that is aligned to current date." time="0.111">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin is on calendar page..............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_04".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_05 Test that Admin can see list of Trainers name in the first Column." time="0.098">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin is on calendar page..............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_05".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_06 Test that Calendar has AM and PM section for each day in the date." time="0.098">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:30)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin is on calendar page..............................................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_06".skipped
+]]></system-out>
+</testcase>
+<testcase classname="Sort Filter on Start Date" name="TC_TMS27_07 Test that Calendar has 1 week calendar button in the right top corner." time="0.092">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[Tuesday
+08/]1&gt; but was:&lt;[Monday
+07/3]1&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[Tuesday
+08/]1> but was:<[Monday
+07/3]1>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.fdmgroup.admins.stepdefinitions.CalendarViewFeature.admin_clicks_on_calendar_button_on_the_nav_bar(CalendarViewFeature.java:22)
+	at ✽.Admin clicks on calendar button on the Nav bar(file:///Users/tejaspatel/Documents/FDM/Automation_TMS/fdm_tms_qe_pod/src/test/resources/Features/Sprint_2/Admins/TMS_27_CalendarView.feature:35)
+]]>
+</failure>
+<system-out><![CDATA[
+When Admin clicks on calendar button on the Nav bar.........................failed
+Then Admin clicks on One week button on right top corner....................skipped
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Admins/Sprint_2/" as "TMS_27_07".skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="40.258" tests="3" skipped="0" failures="1" errors="0">
+<testcase classname="TMS_2059 As a user, I want my log in to be authenticated to ensure my privacy" name="TMS_2080 Test that login is working properly" time="26.83">
+<system-out><![CDATA[
+Given User is on tms page and checks the login button.......................passed
+When user enters correct credentials........................................passed
+And user clicks on login button.............................................passed
+Then user checks logout button..............................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_10/AcademyUsers/TMS_2059/" as "TMS_2080".passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2061 As a user, I need http requests to be modified to have authorization headers using the JWT token to ensure security of my session" name="Login as an admin user and obtain the authorization token" time="10.333">
+<system-out><![CDATA[
+Given the base URL is "http://localhost:8081"...............................passed
+When I send a POST request to "/authentication/login" with valid admin credentials.passed
+Then I copy the authorization token from the response header................passed
+]]></system-out>
+</testcase>
+<testcase classname="TMS_2061 As a user, I need http requests to be modified to have authorization headers using the JWT token to ensure security of my session" name="Attempt to pass the negative credentials" time="0.378">
+<failure type="java.lang.AssertionError" message="Authorization token not found in response">
+<![CDATA[java.lang.AssertionError: Authorization token not found in response
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertNotNull(Assert.java:713)
+	at com.fdmgroup.academyusers.stepdefinitions.HttpReq_stepdefinitions.i_send_a_post_request_to_with_invalid_admin_credentials(HttpReq_stepdefinitions.java:60)
+	at ✽.I send a POST request to "/authentication/login" with invalid admin credentials(file:///C:/Users/HP/Desktop/Automation-Sprint11/fdm_tms_qe_pod/src/test/resources/Features/Sprint_10/AcademyUsers/TMS_2061_httpReq.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the base URL is "http://localhost:8081"...............................passed
+When I send a POST request to "/authentication/login" with invalid admin credentials.failed
+Then the status code response should be 401.................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

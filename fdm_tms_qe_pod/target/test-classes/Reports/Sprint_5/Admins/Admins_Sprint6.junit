@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.636" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="TMS_883 The Academy Admin is able to view the Academy Directory page with all the Trainer Profile Cards" name="TMS_1614 User should be able to see all the Trainer Profile Cards" time="3.311">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for Academy Admin.........................passed
+And Navigate to the Academy Directory page using url........................passed
+And Clicks on the Trainer from the Academy Directory dropdown...............passed
+And User should be able to see all the Trainer Profile Cards................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_6/Admins/TMS_883/" as "TMS_1614".passed
+]]></system-out>
+</testcase>
+</testsuite>

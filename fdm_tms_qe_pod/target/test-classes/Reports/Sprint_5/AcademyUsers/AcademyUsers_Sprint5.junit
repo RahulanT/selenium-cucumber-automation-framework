@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.962" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Breadcrumbs are displayed while clicking on different pages" name="TC_TMS_912 User should be able to see clickable breadcrumbs on profile card page" time="3.584">
+<system-out><![CDATA[
+Given User launches the TMS portal page.....................................passed
+When Enters valid id and password for trainer...............................passed
+And Navigate to the Home Page using url.....................................passed
+And User should be able to see the breadcrumbs home.........................passed
+And Navigate to the Profile Card using URL..................................passed
+And User should be able to see the breadcrumbs profile card.................passed
+And User clicks on breadcrumb home..........................................passed
+And User should be taken to home page.......................................passed
+And Take a screenshot and saving it in "src/test/resources/Screenshots/Sprint_5/AcademyUsers/TMS_887/" as "TMS_912".passed
+]]></system-out>
+</testcase>
+</testsuite>
